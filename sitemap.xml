@@ -88,16 +88,11 @@
   </url>
   
   <url>
-    <loc>https://dl999.netlify.app/about/</loc>
-    <lastmod>2020-04-11T19:15:32+08:00</lastmod>
+    <loc>https://dl999.netlify.app/categories/</loc>
   </url>
   
   <url>
-    <loc>https://dl999.netlify.app/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dl999.netlify.app/search/</loc>
+    <loc>https://dl999.netlify.app/tags/</loc>
   </url>
   
 </urlset>
