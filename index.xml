@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>dl999.netlify.app</title>
-        <link>https://dl999.netlify.app/</link>
-        <description>Recent content on dl999.netlify.app</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-CN</language>
-        <lastBuildDate>Thu, 24 Dec 2020 19:00:11 +0800</lastBuildDate><atom:link href="https://dl999.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hermit • Lite Apps Browser _v16.6.4-先行测试版 [Premium][Modded]</title>
-        <link>https://dl999.netlify.app/post/hermit-lite-apps-browser/</link>
-        <pubDate>Thu, 24 Dec 2020 19:00:11 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/hermit-lite-apps-browser/</guid>
+  <channel>
+    <title>dl999.netlify.app</title>
+    <link>https://dl999.netlify.app/</link>
+    <description>Recent content on dl999.netlify.app</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 24 Dec 2020 19:00:11 +0800</lastBuildDate>
+    
+        <atom:link href="https://dl999.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://dl999.netlify.app/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Hermit • Lite Apps Browser _v16.6.4-先行测试版 [Premium][Modded]</title>
+      <link>https://dl999.netlify.app/post/hermit-lite-apps-browser/</link>
+      <pubDate>Thu, 24 Dec 2020 19:00:11 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/hermit-lite-apps-browser/</guid>
+      
         <description>&lt;p&gt;要求： Android 5.0及更高版本
 概述：使用Hermit，您可以将大型本地应用替换为基于Web的Lite Apps。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ANDROID P是测试版软件，内容包含&lt;/strong&gt;错误由于Android P错误，
@@ -71,20 +97,22 @@ INCOGNITO MODE：
 ●已解锁
 &lt;strong&gt;抢先体验&lt;/strong&gt;程序&lt;strong&gt;&lt;strong&gt;●无需解锁&lt;/strong&gt;&lt;/strong&gt;●已删除分析****●兼容AOSP&lt;/strong&gt; &lt;strong&gt;●3.3 MB&lt;/strong&gt; &lt;strong&gt;●由Kirlif发布&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;此应用程序没有广告&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-41603333-50b1e1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41603333-50b1e1&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>BSPlayer Pro v3.10.231-20201215 build 2106159 [Paid]</title>
-        <link>https://dl999.netlify.app/post/bsplayer-pro/</link>
-        <pubDate>Thu, 24 Dec 2020 16:14:25 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/bsplayer-pro/</guid>
+      
+    </item>
+    
+    <item>
+      <title>BSPlayer Pro v3.10.231-20201215 build 2106159 [Paid]</title>
+      <link>https://dl999.netlify.app/post/bsplayer-pro/</link>
+      <pubDate>Thu, 24 Dec 2020 16:14:25 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/bsplayer-pro/</guid>
+      
         <description>&lt;p&gt;&lt;strong&gt;BSPlayer Pro v3.10.231-20201215 build 2106159 [付费]&lt;/strong&gt;
 要求： 5.0+
 概述：这是BSPlayer多媒体播放器的完整，无广告版本，具有其他功能。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/BSPlayer-Pro/download.png&#34; alt=&#34;图片&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/BSPlayer-Pro/download.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
 &lt;p&gt;BSPlayer是适用于Android设备的媒体播放器：智能手机和平板电脑，支持硬件加速的视频解码，自动字幕搜索和来自SMB共享的缓冲网络播放。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;主要功能：&lt;/strong&gt;
 -仅完整版：对Chromecast的实验性支持（支持大多数mp4）
@@ -110,7 +138,7 @@ INCOGNITO MODE：
 -如果您从Market App中收到“与设备不兼容”的信息，请尝试清除Market App缓存（设置，应用程序，Market，清除缓存），然后重新启动设备。
 - BSPlayer应用使用Google的标准许可服务。在首次运行应用程序时保持启用Wi-Fi或移动数据。不需要进一步的互联网连接。另外，对于有许可问题的现有用户-您可以尝试“清除应用数据”功能并在启用互联网连接的情况下运行应用。这应该许可您的应用。&lt;/p&gt;
 &lt;p&gt;该软件包包括对带有VFP和NEON的ARMv7的支持。对于其他CPU类型，请下载适当的软件包。应用程序将通知您您需要哪个软件包。&lt;/p&gt;
-&lt;p&gt;注意：报告错误时，请添加有关您的智能手机品牌和型号的信息。您也可以通过电子邮件&lt;a class=&#34;link&#34; href=&#34;mailto:android@bsplayer.com&#34; &gt;android @ bsplayer .com&lt;/a&gt;向我们发送更详细的错误报告。我们正在努力为用户改进媒体播放器，我们非常感谢您的反馈。&lt;/p&gt;
+&lt;p&gt;注意：报告错误时，请添加有关您的智能手机品牌和型号的信息。您也可以通过电子邮件&lt;a href=&#34;mailto:android@bsplayer.com&#34;&gt;android @ bsplayer .com&lt;/a&gt;向我们发送更详细的错误报告。我们正在努力为用户改进媒体播放器，我们非常感谢您的反馈。&lt;/p&gt;
 &lt;p&gt;*硬件加速支持取决于设备视频解码器的功能。在某些HTC型号上，纵向模式下的硬件加速播放可能已损坏（例如，在HTC HD上，这是硬件问题）。同样在某些设备（三星银河S2）上，缩放/拉伸可能无法在所有视频上使用。&lt;/p&gt;
 &lt;p&gt;此视频播放器使用LGPLv2.1许可的FFmpeg代码，可以从BSPlayer网站下载其源代码。&lt;/p&gt;
 &lt;p&gt;新增功能：
@@ -119,24 +147,22 @@ INCOGNITO MODE：
 问题-修复了某些视频的播放问题
 -稳定性得到了改善，并修复了错误&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;该应用没有广告。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-41846698-4cfd92&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41846698-4cfd92&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>XPlayer（视频播放器所有格式）2.1.9.1 [Unlocked] Apk &#43; Mod Android</title>
-        <link>https://dl999.netlify.app/post/xplayer-video-player-all-format-apk/</link>
-        <pubDate>Thu, 24 Dec 2020 15:59:18 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/xplayer-video-player-all-format-apk/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://rexdl.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img src=&#34;https://rexdl.com/image/android/app/xplayer-video-player-all-format.jpg?x97193&#34; alt=&#34;XPlayer&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
+      
+    </item>
+    
+    <item>
+      <title>XPlayer（视频播放器所有格式）2.1.9.1 [Unlocked] Apk &#43; Mod Android</title>
+      <link>https://dl999.netlify.app/post/xplayer-video-player-all-format-apk/</link>
+      <pubDate>Thu, 24 Dec 2020 15:59:18 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/xplayer-video-player-all-format-apk/</guid>
+      
+        <description>&lt;p&gt;&lt;a href=&#34;https://rexdl.com/&#34;&gt;&lt;img src=&#34;https://rexdl.com/image/android/app/xplayer-video-player-all-format.jpg?x97193&#34; alt=&#34;XPlayer&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Google Play 2017年最佳获胜者
 ★评分最高的（4.8）★视频播放器！&lt;/p&gt;
-&lt;p&gt;下载最新版本**&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=video.player.videoplayer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;所有格式的视频播放器-XPlayer&lt;/a&gt;** Full Apk通过&lt;a class=&#34;link&#34; href=&#34;https://rexdl.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;rexdl.com的&lt;/a&gt;直接链接&lt;a class=&#34;link&#34; href=&#34;https://rexdl.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;解锁&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;下载最新版本**&lt;a href=&#34;https://play.google.com/store/apps/details?id=video.player.videoplayer&#34;&gt;所有格式的视频播放器-XPlayer&lt;/a&gt;** Full Apk通过&lt;a href=&#34;https://rexdl.com/&#34;&gt;rexdl.com的&lt;/a&gt;直接链接&lt;a href=&#34;https://rexdl.com/&#34;&gt;解锁&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;Video Player All Format是一种专业的视频播放工具。它支持 &lt;strong&gt;所有视频格式，4K /超高清&lt;/strong&gt; 视频文件，并可以&lt;strong&gt;高清&lt;/strong&gt;播放。它是适用于android平板电脑和android手机的最佳高清视频播放器之一。视频播放器所有格式还可以保护人们在使用设备时不会删除或观看您的私人视频。&lt;/p&gt;
 &lt;h4 id=&#34;主要特征&#34;&gt;&lt;strong&gt;主要特征：&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;●支持所有视频格式，包括 &lt;strong&gt;MKV&lt;/strong&gt;，MP4，M4V，AVI，MOV，3GP，FLV，WMV，RMVB，TS等。
@@ -177,18 +203,20 @@ Chromecast的电视视频播放器。使用Chromecast轻松将视频投射到And
 &lt;p&gt;&lt;strong&gt;●解锁付费功能
 ●删除分析
 ●兼容AOSP&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-40931768-e363e2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-40931768-e363e2&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Nova Launcher v6.2.18 [Final] [Prime] [Mod]</title>
-        <link>https://dl999.netlify.app/post/nova-launcher/</link>
-        <pubDate>Thu, 24 Dec 2020 13:26:00 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/nova-launcher/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Nova Launcher v6.2.18 [Final] [Prime] [Mod]</title>
+      <link>https://dl999.netlify.app/post/nova-launcher/</link>
+      <pubDate>Thu, 24 Dec 2020 13:26:00 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/nova-launcher/</guid>
+      
         <description>&lt;p&gt;高度可定制，性能驱动的主屏幕。不能替代！Nova Launcher是现代Android的顶级启动器，始终采用完整的Material Design。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/Nova-Launcher/download.png&#34; alt=&#34;图片&#34;  /&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/Nova-Launcher/download1.png&#34; alt=&#34;图片&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;post/NovaLauncher.assets/download.png&#34; alt=&#34;图片&#34;&gt;&lt;img src=&#34;post/NovaLauncher.assets/download1.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Nova Launcher是Android中最好的AOSP风格的启动器。- Android的警察
 新星 发射具有一定的动手能力很强背后- Phandroid
 我们最喜欢的是新星 发射中，击打令人难以置信的性能和高可定制性之间存在极大的完美平衡，没有过于花哨且难以使用-&lt;/p&gt;
@@ -222,17 +250,66 @@ Chromecast的电视视频播放器。使用Chromecast轻松将视频投射到And
 禁用/删除不需要的权限+接收者和服务；
 Analytics（分析）/ Crashlytics（崩溃）已禁用。&lt;/p&gt;
 &lt;p&gt;该应用没有广告。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/file/17587959-477248967&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/file/17587959-477248967&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Rosetta Stone：学习语言v7.2.0 [已解锁] [最新]</title>
-        <link>https://dl999.netlify.app/post/learn-languages-rosetta-stone-apk/</link>
-        <pubDate>Thu, 24 Dec 2020 11:42:11 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/learn-languages-rosetta-stone-apk/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/Learn-Languages-Rosetta-Stone.png&#34; alt=&#34;学习语言Rosetta Stone&#34;  /&gt;&lt;/p&gt;
+      
+    </item>
+    
+    <item>
+      <title>Nova Launcher v6.2.18 [Final] [Prime] [Mod]</title>
+      <link>https://dl999.netlify.app/post/nova-launcher/</link>
+      <pubDate>Thu, 24 Dec 2020 13:26:00 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/nova-launcher/</guid>
+      
+        <description>&lt;p&gt;高度可定制，性能驱动的主屏幕。不能替代！Nova Launcher是现代Android的顶级启动器，始终采用完整的Material Design。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/Nova-Launcher/download.png&#34; alt=&#34;图片&#34;&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/Nova-Launcher/download1.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nova Launcher是Android中最好的AOSP风格的启动器。- Android的警察
+新星 发射具有一定的动手能力很强背后- Phandroid
+我们最喜欢的是新星 发射中，击打令人难以置信的性能和高可定制性之间存在极大的完美平衡，没有过于花哨且难以使用-&lt;/p&gt;
+&lt;p&gt;• 图标主题-在Play商店中找到数千个Nova Launcher的图标主题
+•子 网格定位-比标准启动器强大得多的控制，Nova Launcher允许您在桌面网格单元的一半处捕捉图标或小部件
+• 颜色控件-用于标签，文件夹，未读的徽章，抽屉选项卡和背景
+• 自定义应用程序抽屉-自定义选项卡，垂直或水平滚动，自定义效果
+• 改进的小部件抽屉-按应用程序分组的小部件使使用起来更快得多
+• 无限滚动-永不止步您最喜欢的页面，连续在桌面或抽屉中循环
+• 备份/还原-先进的备份/还原系统，可让您备份桌面布局和启动器设置
+•可 滚动的Dock-创建多个扩展坞并在它们之间滚动
+• 扩展坞中的小部件-将任何小部件（例如4x1音乐播放器小部件）放置在扩展坞中
+• 导入布局-无需从头开始重建桌面，Nova Launcher可以从最受欢迎的启动器中导入。包括手机随附的手机。
+• 快速-新星 发射器经过高度优化，快速，安静地做工作，保持顺畅的动画，让您使用手机一样快，你可以将你的手指。&lt;/p&gt;
+&lt;p&gt;新星 发射总理
+解锁通过购买以下额外新星 发射总理
+• 手势-在主屏幕上滑动，捏合，双击等等，以打开您喜欢的应用程序
+• 未读邮件数-绝不会错过任何一条消息。使用TeslaUnread插件为环聊，SMS，Gmail和更多应用提供未读计数徽章
+• 自定义抽屉组-在应用抽屉中创建新标签或文件夹
+• 隐藏应用-通过隐藏未使用的应用来保持干净的应用抽屉
+• 图标滑动-设置自定义操作用于滑动应用程序快捷方式或文件夹
+• 更多滚动效果-例如“擦除”，“手风琴”和“投掷”&lt;/p&gt;
+&lt;p&gt;此应用程序使用“设备管理员”权限来启用可选的屏幕关闭/锁定功能。&lt;/p&gt;
+&lt;p&gt;新增功能：
+6.2.18
+修复和优化&lt;/p&gt;
+&lt;p&gt;Mod信息：
+主要功能已解锁-无需其他密钥；
+优化图形并清除默认墙纸；
+关闭统计和社交菜单；
+禁用/删除不需要的权限+接收者和服务；
+Analytics（分析）/ Crashlytics（崩溃）已禁用。&lt;/p&gt;
+&lt;p&gt;该应用没有广告。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/file/17587959-477248967&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Rosetta Stone：学习语言v7.2.0 [已解锁] [最新]</title>
+      <link>https://dl999.netlify.app/post/learn-languages-rosetta-stone-apk/</link>
+      <pubDate>Thu, 24 Dec 2020 11:42:11 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/learn-languages-rosetta-stone-apk/</guid>
+      
+        <description>&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/Learn-Languages-Rosetta-Stone.png&#34; alt=&#34;学习语言Rosetta Stone&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;学习语言Rosetta Stone&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;从第一天开始讲新语言！免费尝试第一堂课。学习西班牙语（拉丁美洲或西班牙），英语（美国或英国），法语，意大利语，德语，汉语（普通话），阿拉伯语，荷兰语，菲律宾语（他加禄语），希腊语，希伯来语，北印度语，北印度语，爱尔兰语，意大利语，日语，韩语，波斯语（波斯语），波兰语，葡萄牙语（巴西），俄语，瑞典语，土耳其语或越南语。&lt;/p&gt;
 &lt;p&gt;Rosetta Stone的“学习语言”应用程序使您可以通过沉浸式，自定进度的课程随时随地学习语言，这些课程以刺激大脑自然语言学习能力的方式介绍新技能。我们屡获殊荣的教学方法在20多年的时间里受到了全球数百万人的信赖，其中包括教育机构和企业客户。&lt;/p&gt;
@@ -250,26 +327,28 @@ Analytics（分析）/ Crashlytics（崩溃）已禁用。&lt;/p&gt;
 禁用/删除不需要的权限+接收者和服务；
 Analytics（分析）/ Crashlytics（崩溃）已禁用。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;屏幕截图&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/UngtLo081is2ABS_lvmVyVNmpJlmhRybleCIo2t0EfBZQlBQpSGTFgsxGoJ56dx1-G4=h310&#34; alt=&#34;Rosetta Stone：学习和讲新语言Screenshot&#34;  /&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/OV606WayYeD8bKn6xvpqjbMySu8E123f--Es_nC0UMTk2A9DZyJkfYu109vVtPEwCtY=h310&#34; alt=&#34;Rosetta Stone：学习和讲新语言Screenshot&#34;  /&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/cnUpj9qomxbYmpklOh1vReZzmGcVD9AInsxy-7t5Uf6dwBKIpAsIUxRjvRRwepypKQ=h310&#34; alt=&#34;Rosetta Stone：学习和讲新语言Screenshot&#34;  /&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/43yvGPZvocVlPvk1tnd-sj4c047HAP7rfT_1EFLrdtlkuC7Oe0ADP3HndBtRjdLYo7k=h310&#34; alt=&#34;Rosetta Stone：学习和讲新语言Screenshot&#34;  /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-41842771-68b09f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/UngtLo081is2ABS_lvmVyVNmpJlmhRybleCIo2t0EfBZQlBQpSGTFgsxGoJ56dx1-G4=h310.png&#34; alt=&#34;Rosetta Stone：学习和讲新语言Screenshot&#34;&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/OV606WayYeD8bKn6xvpqjbMySu8E123f--Es_nC0UMTk2A9DZyJkfYu109vVtPEwCtY=h310&#34; alt=&#34;Rosetta Stone：学习和讲新语言Screenshot&#34;&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/cnUpj9qomxbYmpklOh1vReZzmGcVD9AInsxy-7t5Uf6dwBKIpAsIUxRjvRRwepypKQ=h310&#34; alt=&#34;Rosetta Stone：学习和讲新语言Screenshot&#34;&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/learn-languages-rosetta-stone-apk/43yvGPZvocVlPvk1tnd-sj4c047HAP7rfT_1EFLrdtlkuC7Oe0ADP3HndBtRjdLYo7k=h310&#34; alt=&#34;Rosetta Stone：学习和讲新语言Screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41842771-68b09f&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>熊猫视频压缩器 Premium v1.1.22 MOD APK</title>
-        <link>https://dl999.netlify.app/post/video-compressor-panda/</link>
-        <pubDate>Wed, 23 Dec 2020 20:27:03 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/video-compressor-panda/</guid>
+      
+    </item>
+    
+    <item>
+      <title>熊猫视频压缩器 Premium v1.1.22 MOD APK</title>
+      <link>https://dl999.netlify.app/post/video-compressor-panda/</link>
+      <pubDate>Wed, 23 Dec 2020 20:27:03 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/video-compressor-panda/</guid>
+      
         <description>&lt;p&gt;熊猫视频恭喜你！您刚刚找到了最好的视频压缩器和视频缩放器应用程序来压缩视频。该压缩视频工具使您甚至可以通过电子邮件发送视频。我们不是在开玩笑。Panda可以将视频压缩到电子邮件提供商允许的大小。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/video-compressor-panda/1.png&#34; alt=&#34;图片&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/video-compressor-panda/1.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;使用Panda压缩视频后，您将能够：&lt;/strong&gt;
 &lt;em&gt;通过电子邮件，文本发送压缩视频&lt;/em&gt;将视频
 上传/共享到社交媒体渠道（Instagram，Facebook，Youtube，Whatsapp，微信，Viber，Line，Telegram， VKontakte和KakaoTalk）。
 *节省手机，平板电脑或云端的空间
 *减少移动数据的使用量
 *还有更多
-&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/video-compressor-panda/2.jpg&#34; alt=&#34;图片&#34;  /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/video-compressor-panda/2.jpg&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;支持的视频格式：&lt;/strong&gt; mp4，avi，mkv，flv，rmvb，3gp，mpeg，wmv，mov&lt;/p&gt;
 &lt;p&gt;对于每个想要共享和上传视频的移动用户来说，大视频文件都是一个巨大的问题。此视频压缩应用程序可帮助您：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;压缩视频文件以通过电子邮件发送&lt;/strong&gt;
@@ -294,18 +373,20 @@ Panda Video Resizer会减小视频的大小，因此您的智能手机或存储�
 ●优化的图形/ Zipalign。
 ●总Apk大小44.8 Mb。
 ●删除了调试信息。压缩器将以快速，轻松，有趣的方式缩小您的视频，最终的视频质量会让您感到惊讶。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wwa.lanzous.com/ia9hMjn49za&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;蓝奏云&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwa.lanzous.com/ia9hMjn49za&#34;&gt;蓝奏云&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>视频压缩器– Compact Video Pro（MP4，MKV，AVI，MOV）v4.0.1 MOD APK</title>
-        <link>https://dl999.netlify.app/post/video-compressor-compact-video/</link>
-        <pubDate>Wed, 23 Dec 2020 20:20:09 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/video-compressor-compact-video/</guid>
+      
+    </item>
+    
+    <item>
+      <title>视频压缩器– Compact Video Pro（MP4，MKV，AVI，MOV）v4.0.1 MOD APK</title>
+      <link>https://dl999.netlify.app/post/video-compressor-compact-video/</link>
+      <pubDate>Wed, 23 Dec 2020 20:20:09 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/video-compressor-compact-video/</guid>
+      
         <description>&lt;p&gt;视频压缩器-Compact Video应用程序可以压缩和转换几乎任何格式的视频。它为用户提供默认的压缩/预设配置文件。用户可以选择所需的压缩质量，压缩速度，视频分辨率，比特率等。此外，该压缩器和转换器还允许用户输入所需的压缩视频大小，然后将视频压缩为该大小。您也可以通过排队多个视频以批处理模式压缩视频。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/video-compressor-compact-video/video-compressor-compact-videomp4mkvavimov-133x133.png&#34; alt=&#34;video-compressor-compact-videomp4mkvavimov.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/video-compressor-compact-video/video-compressor-compact-videomp4mkvavimov-133x133.png&#34; alt=&#34;video-compressor-compact-videomp4mkvavimov.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;视频压缩器– Compact Video应用程序可以压缩和转换几乎任何格式的视频。它为用户提供默认的压缩/预设配置文件。用户可以选择所需的压缩质量，压缩速度，视频分辨率，比特率等。此外，该压缩器和转换器还允许用户输入所需的压缩视频大小，然后将视频压缩为该大小。您也可以通过排队多个视频以批处理模式压缩视频。&lt;/p&gt;
 &lt;p&gt;该视频压缩器可以使用X264和X265（HEVC）编解码器压缩未压缩的视频而不会降低质量。它还可以通过降低质量（分辨率，比特率）来压缩压缩的视频。该视频压缩器通过定制视频的分辨率和比特率，为用户提供了一种透明灵活的方式来选择压缩级别。它显示了压缩开始之前压缩视频的估计大小。这可以帮助您确定要以何种压缩质量节省多少空间。它支持多种视频格式。&lt;/p&gt;
 &lt;p&gt;支持的视频格式&lt;/p&gt;
@@ -329,17 +410,19 @@ Panda Video Resizer会减小视频的大小，因此您的智能手机或存储�
 &lt;p&gt;🎬播放压缩和转换后的视频。&lt;/p&gt;
 &lt;p&gt;🎬分享压缩，转换和缩小尺寸的视频。&lt;/p&gt;
 &lt;p&gt;这是市场上最好的视频压缩器和转换器应用程序，它提供用于压缩视频的所有可能的设置。&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/file/17587959-477207149&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/file/17587959-477207149&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>MX Player v1.32.3 [Unlocked AC3 / DTS]</title>
-        <link>https://dl999.netlify.app/post/mx_player/</link>
-        <pubDate>Wed, 23 Dec 2020 19:08:48 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/mx_player/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/MX_Player/download.png&#34; alt=&#34;图片&#34;  /&gt;&lt;/p&gt;
+      
+    </item>
+    
+    <item>
+      <title>MX Player v1.32.3 [Unlocked AC3 / DTS]</title>
+      <link>https://dl999.netlify.app/post/mx_player/</link>
+      <pubDate>Wed, 23 Dec 2020 19:08:48 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/mx_player/</guid>
+      
+        <description>&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/MX_Player/download.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
 &lt;p&gt;a）硬件加速-借助新的HW +解码器，可以将硬件加速应用于更多视频。&lt;/p&gt;
 &lt;p&gt;b）多核解码-MX Player是第一个支持多核解码的Android视频播放器。测试结果证明，双核设备的性能比单核设备高70％。&lt;/p&gt;
 &lt;p&gt;c）缩放，缩放和平移-捏和在屏幕上滑动即可轻松放大和缩小。也可以选择缩放和平移。&lt;/p&gt;
@@ -369,7 +452,7 @@ Panda Video Resizer会减小视频的大小，因此您的智能手机或存储�
 -睡眠计时器现在使您可以入睡自己喜欢的音乐
 -从本地视频创建视频播放列表&lt;/p&gt;
 &lt;p&gt;对于我们的在线用户，我们修复了一个错误导致观看视频时自动旋转失败。&lt;/p&gt;
-&lt;p&gt;感谢您与我们在一起。喜欢MX Player？请给我们评分。您的反馈使我们保持运转。&lt;img src=&#34;MX_Player/icon_smile.gif&#34; alt=&#34;:)&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;感谢您与我们在一起。喜欢MX Player？请给我们评分。您的反馈使我们保持运转。&lt;img src=&#34;MX_Player/icon_smile.gif&#34; alt=&#34;:)&#34;&gt;&lt;/p&gt;
 &lt;p&gt;★★★MOD★★★
 语言En，Ru，Uk
 用彩色图标替换所有活动图标；
@@ -378,17 +461,19 @@ Panda Video Resizer会减小视频的大小，因此您的智能手机或存储�
 减少了对Internet的不必要访问
 我将电视和盒子的接口更改为电话接口。现在可以使用本地音乐和网络了。&lt;/p&gt;
 &lt;p&gt;该应用没有广告&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-41104216-de9adb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41104216-de9adb&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Ookla 的 Speedtest v4.5.26 [Premium] [Mod]</title>
-        <link>https://dl999.netlify.app/post/speedtest-by-ookla/</link>
-        <pubDate>Wed, 23 Dec 2020 16:53:51 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/speedtest-by-ookla/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/speedtest-by-Ookla/images.mobilism.png&#34; alt=&#34;img&#34;  /&gt;数百万的用户使Ookla Speedtest成为测试Internet速度的＃1应用程序，并且每天都受到整个行业专业人员的信赖！
+      
+    </item>
+    
+    <item>
+      <title>Ookla 的 Speedtest v4.5.26 [Premium] [Mod]</title>
+      <link>https://dl999.netlify.app/post/speedtest-by-ookla/</link>
+      <pubDate>Wed, 23 Dec 2020 16:53:51 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/speedtest-by-ookla/</guid>
+      
+        <description>&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/speedtest-by-Ookla/images.mobilism.png&#34; alt=&#34;img&#34;&gt;数百万的用户使Ookla Speedtest成为测试Internet速度的＃1应用程序，并且每天都受到整个行业专业人员的信赖！
 -发现你的下载，上传和平安
 -实时图形显示连接的一致性
 -故障排除或确认你所承诺的速度
@@ -405,20 +490,22 @@ VPN订阅已解锁；
 禁用分析/崩溃分析；
 优化图形和Zipalign。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;该应用没有广告。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-40931770-d0514e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-40931770-d0514e&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>ZArchiver Pro v0.9.4内部版本9435 [最终版] [付费]</title>
-        <link>https://dl999.netlify.app/post/zarchiver-pro/</link>
-        <pubDate>Wed, 23 Dec 2020 16:33:34 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/zarchiver-pro/</guid>
+      
+    </item>
+    
+    <item>
+      <title>ZArchiver Pro v0.9.4内部版本9435 [最终版] [付费]</title>
+      <link>https://dl999.netlify.app/post/zarchiver-pro/</link>
+      <pubDate>Wed, 23 Dec 2020 16:33:34 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/zarchiver-pro/</guid>
+      
         <description>&lt;p&gt;&lt;strong&gt;ZArchiver Pro v0.9.4内部版本9436 [最终版] [付费]&lt;/strong&gt;
 要求： 4.0+
 概述： ZArchiver Pro-是一个文件管理器，具有许多用于管理存档的功能。该程序具有简单实用的界面。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/zARCHIVER-PRO/download.png&#34; alt=&#34;图片&#34;  /&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/zARCHIVER-PRO/download%20%281%29.png&#34; alt=&#34;图片&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/zARCHIVER-PRO/download.png&#34; alt=&#34;图片&#34;&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/zARCHIVER-PRO/download%20(1).png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;专业版的优点：&lt;/strong&gt;
 *支持外部存储器和MicroSD
 *深色和浅色主题；
@@ -441,22 +528,23 @@ VPN订阅已解锁；
 *要选择文件，无需进入菜单并包含多选选项。只需按一下文件，它们就会被分配；
 *有绑定到扩展名；
 *从0.7.2版本开始的0.7.x版本行支持“新闻阅读器”的黑白设计并更新屏幕NOOK设备。&lt;/p&gt;
-&lt;p&gt;错误跟踪程序：&lt;a class=&#34;link&#34; href=&#34;https://bitbucket.org/ant-on/zarchiverpro/issues&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https &lt;/a&gt;： //bitbucket.org/ant-on/zarchiverpro/issues新增功能： 0.9.4-支持Android 11；-从档案中直接打开文件（如果可能，打开文件时不将其拆包到手机存储器中）；-编辑zip档案的评论；-更改文件夹的颜色；-安装APKS，XAPK和Split APK；-xz和squashfs中的zstd支持；-其他修复和优化。&lt;/p&gt;
+&lt;p&gt;错误跟踪程序：&lt;a href=&#34;https://bitbucket.org/ant-on/zarchiverpro/issues&#34;&gt;https &lt;/a&gt;： //bitbucket.org/ant-on/zarchiverpro/issues新增功能： 0.9.4-支持Android 11；-从档案中直接打开文件（如果可能，打开文件时不将其拆包到手机存储器中）；-编辑zip档案的评论；-更改文件夹的颜色；-安装APKS，XAPK和Split APK；-xz和squashfs中的zstd支持；-其他修复和优化。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;该应用没有广告。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-41836957-fdf550&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41836957-fdf550&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;不要忘了感谢和支持开发人员！如果您喜欢该应用程序，请购买！&lt;/strong&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>RAR for Android v6.00 build 96 [Final] [Dark Mod]</title>
-        <link>https://dl999.netlify.app/post/rar-for-android/</link>
-        <pubDate>Wed, 23 Dec 2020 16:21:15 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/rar-for-android/</guid>
+      
+    </item>
+    
+    <item>
+      <title>RAR for Android v6.00 build 96 [Final] [Dark Mod]</title>
+      <link>https://dl999.netlify.app/post/rar-for-android/</link>
+      <pubDate>Wed, 23 Dec 2020 16:21:15 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/rar-for-android/</guid>
+      
         <description>&lt;p&gt;概述： RARLAB的RAR是一个多功能，原始，免费，简单，轻松，快速的压缩程序，存档器，助手，提取器，管理器甚至是基本的文件浏览器。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/RAR-for-Android/wps47.png&#34; alt=&#34;图片&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/RAR-for-Android/wps47.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
 &lt;p&gt;RAR可以创建RAR和ZIP，并解压缩RAR，ZIP，TAR，GZ，BZ2，XZ，7z，ISO，ARJ档案。功能列表包括损坏的ZIP和RAR文件的修复命令，与RARLAB的WinRAR基准兼容的基准功能，恢复记录，常规和恢复卷，加密，可靠的归档文件，利用多个CPU内核压缩数据。&lt;/p&gt;
 &lt;p&gt;除了标准的ZIP文件外，解压缩功能还支持带有BZIP2，LZMA，PPMd和XZ压缩的ZIP和ZIPX，也作为受密码保护的ZIP。Unrar命令可用于所有版本的RAR归档文件，包括最新的RAR5，受密码保护的文件和多部分文件。&lt;/p&gt;
 &lt;p&gt;RAR显示广告以支付开发成本。您可以在选项菜单中付款以关闭广告。RAR请求访问网络，查看网络连接和计费以显示或禁用广告。&lt;/p&gt;
@@ -473,27 +561,28 @@ Google Ads同意已禁用;
 禁用/删除不需要的权限+接收者和服务；
 分析/崩溃分析已禁用。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;该应用没有广告。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-40936741-42570c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-40936741-42570c&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;不要忘了感谢和支持开发人员！如果您喜欢该应用程序，请购买！&lt;/strong&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>KillApps PRO：关闭所有运行1.19.7 Apk Mod（解锁）Android的应用</title>
-        <link>https://dl999.netlify.app/post/killapps-pro-close-all-apps-running-apk/</link>
-        <pubDate>Wed, 23 Dec 2020 13:29:05 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/killapps-pro-close-all-apps-running-apk/</guid>
-        <description>&lt;p&gt;**&lt;a class=&#34;link&#34; href=&#34;https://rexdl.com/android/killapps-pro-close-all-apps-running-apk.html/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;KillApps&lt;/a&gt;**使您可以通过一次触摸立即关闭所有正在运行的应用程序，并防止应用程序自动重新启动。&lt;/p&gt;
+      
+    </item>
+    
+    <item>
+      <title>KillApps PRO：关闭所有运行1.19.7 Apk Mod（解锁）Android的应用</title>
+      <link>https://dl999.netlify.app/post/killapps-pro-close-all-apps-running-apk/</link>
+      <pubDate>Wed, 23 Dec 2020 13:29:05 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/killapps-pro-close-all-apps-running-apk/</guid>
+      
+        <description>&lt;p&gt;**&lt;a href=&#34;https://rexdl.com/android/killapps-pro-close-all-apps-running-apk.html/&#34;&gt;KillApps&lt;/a&gt;**使您可以通过一次触摸立即关闭所有正在运行的应用程序，并防止应用程序自动重新启动。&lt;/p&gt;
 &lt;h4 id=&#34;它提高了手机的性能&#34;&gt;**它提高了手机的性能!&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/killapps-pro-close-all-apps-running-apk/killapps-pro-close-all-apps-running-android-thumb.jpg&#34; alt=&#34;KillApps PRO：关闭所有运行Android thumb的应用&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/killapps-pro-close-all-apps-running-apk/killapps-pro-close-all-apps-running-android-thumb.jpg&#34; alt=&#34;KillApps PRO：关闭所有运行Android thumb的应用&#34;&gt;&lt;/p&gt;
 &lt;p&gt;☆加快手机速度
 ☆释放内存
 ☆节省电池
 ☆冷却手机&lt;/p&gt;
 &lt;p&gt;您的手机使许多应用程序在后台运行，这正在消耗您的系统资源，从而耗尽了电池并减少了可用内存。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/killapps-pro-close-all-apps-running-apk/killapps-pro-close-all-apps-running-apk.jpg&#34; alt=&#34;KillApps PRO：关闭所有运行Apk的应用程序&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/killapps-pro-close-all-apps-running-apk/killapps-pro-close-all-apps-running-apk.jpg&#34; alt=&#34;KillApps PRO：关闭所有运行Apk的应用程序&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;特征&#34;&gt;&lt;strong&gt;特征：&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;一键关闭所有正在运行的应用程序&lt;/li&gt;
@@ -522,18 +611,20 @@ KillApps是一个非常强大的Task Killer，可以杀死任务和进程并阻�
 从广告和垃圾中清除
 删除自动运行的应用程序
 离线运行良好&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/file/17587959-477166665&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/file/17587959-477166665&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>SD女仆–系统清理工具5.0.5 APK &#43; MOD（已修补）Android</title>
-        <link>https://dl999.netlify.app/post/sd-maid-system-cleaning-tool-apk/</link>
-        <pubDate>Wed, 23 Dec 2020 12:55:17 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/sd-maid-system-cleaning-tool-apk/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/apk/sdmaid/wps1.png&#34; alt=&#34;img&#34;  /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/apk/sdmaid/wps2.png&#34; alt=&#34;img&#34;  /&gt;&lt;/p&gt;
+      
+    </item>
+    
+    <item>
+      <title>SD女仆–系统清理工具5.0.5 APK &#43; MOD（已修补）Android</title>
+      <link>https://dl999.netlify.app/post/sd-maid-system-cleaning-tool-apk/</link>
+      <pubDate>Wed, 23 Dec 2020 12:55:17 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/sd-maid-system-cleaning-tool-apk/</guid>
+      
+        <description>&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/apk/sdmaid/wps1.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/apk/sdmaid/wps2.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;p&gt;没有人是完美的，Android也不是。
 您已删除的应用，有时会留下数据。
 系统会不断创建您真正不需要的日志，崩溃报告和调试文件。
@@ -568,18 +659,19 @@ http : //sdmaid.darken.eu/help&lt;/p&gt;
 &lt;p&gt;: //sdmaid.darken.eu/changelog&lt;/p&gt;
 &lt;p&gt;优化的图形和干净的资源，可快速加载
 Pro功能已解锁-无需其他任何按键&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-41836039-4a5fc7&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41836039-4a5fc7&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>App Cloner 2.9.3 Premium（Full Unlocked）APK &#43; Mod for Android</title>
-        <link>https://dl999.netlify.app/post/app-cloner-apk-download-full/</link>
-        <pubDate>Wed, 23 Dec 2020 12:00:30 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/app-cloner-apk-download-full/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://rexdl.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;img src=&#34;https://rexdl.com/image/android/app/app-cloner.jpg?x97193&#34; alt=&#34;应用克隆高级版&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
+      
+    </item>
+    
+    <item>
+      <title>App Cloner 2.9.3 Premium（Full Unlocked）APK &#43; Mod for Android</title>
+      <link>https://dl999.netlify.app/post/app-cloner-apk-download-full/</link>
+      <pubDate>Wed, 23 Dec 2020 12:00:30 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/app-cloner-apk-download-full/</guid>
+      
+        <description>&lt;p&gt;&lt;a href=&#34;https://rexdl.com/&#34;&gt;&lt;img src=&#34;https://rexdl.com/image/android/app/app-cloner.jpg?x97193&#34; alt=&#34;应用克隆高级版&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;产品特点&#34;&gt;产品特点&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;创建真正独立的独立应用程序克隆&lt;/li&gt;
@@ -659,21 +751,23 @@ Pro功能已解锁-无需其他任何按键&lt;/p&gt;
 Fabric Crashlytics服务已删除
 仅限手动数据消耗（用于缩略图）已
 删除匿名Bug数据传输&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-41834425-3b577d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41834425-3b577d&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Adguard-无需根目录即可阻止广告v3.61&#43;v4.0.48ƞ</title>
-        <link>https://dl999.netlify.app/post/adguard-premium-apk/</link>
-        <pubDate>Wed, 23 Dec 2020 10:53:23 +0800</pubDate>
-        
-        <guid>https://dl999.netlify.app/post/adguard-premium-apk/</guid>
+      
+    </item>
+    
+    <item>
+      <title>Adguard-无需根目录即可阻止广告v3.61&#43;v4.0.48ƞ</title>
+      <link>https://dl999.netlify.app/post/adguard-premium-apk/</link>
+      <pubDate>Wed, 23 Dec 2020 10:53:23 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/adguard-premium-apk/</guid>
+      
         <description>&lt;p&gt;&lt;strong&gt;Adguard-无需root即可阻止广告v3.6.1 [Final] [Premium] [Mod]&lt;/strong&gt;
 要求： 5.0+
 概述：世界上最先进的广告阻止程序！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/adguard-premium-apk/download.png&#34; alt=&#34;图片&#34;  /&gt;
-&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/adguard-premium-apk/download1.png&#34; alt=&#34;图片&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/adguard-premium-apk/download.png&#34; alt=&#34;图片&#34;&gt;
+&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/adguard-premium-apk/download1.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AdGuard是摆脱侵入性广告和在线跟踪并保护您的设备免受恶意软件攻击的最佳方法。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;借助AdGuard，可以使您的网上冲浪更快，更安全，更舒适！&lt;/p&gt;
 &lt;p&gt;AdGuard是适用于Android的独特的无根广告阻止程序，可删除应用程序和浏览器中的广告，保护您的隐私并帮助您管理应用程序
@@ -692,10 +786,10 @@ Fabric Crashlytics服务已删除
 AdGuardAndroid v3.6的两个重大变化（甚至是新功能）成为标题。它正在观看YouTube在该应用内的无广告广告以及DNS-over-QUIC协议支持。第一个是容易掌握，第二个会需要一些解释。&lt;strong&gt;[增强]的选项观看YouTube无广告&lt;/strong&gt;在Android版YouTube拦截广告一直独占的浏览器很长一段时间，由于Android的限制操作系统会强制过滤其他应用的流量。但是，我们找到了一种避免在YouTube应用中投放广告的方法。按照这些简单的步骤：打开YouTube应用，并开始想要观看的视频。点按“共享”按钮，然后从应用程序列表中选择AdGuard for Android。&lt;/p&gt;
 &lt;p&gt;一个新窗口会弹出，您就可以观看视频，而无需通过广告被打断！&lt;strong&gt;[增强] DNS-过QUIC支持&lt;/strong&gt;DNS-过QUIC，或者干脆DOQ，是一个DNS加密协议。您可能之前已经听说过DNS加密协议，最常见的是HTTPS上的DNS和TLS上的DNS（分别为DoH和DoT）。那么，什么使DoQ如此特别？一堆东西，真的：外的开箱密码，减少连接时间，以及更好的性能在丢失的数据包的情况下，该功能仍处于试验- AdGuard为Android是第一个开源实现之一DNS-over-QUIC的功能-但是它运行良好，建议您尝试一下。您可以在DNS过滤下找到它。选择&lt;/p&gt;
 &lt;p&gt;AdGuard DNS并选择DOQ从可用的加密协议之中。[增强] HTTPS过滤的火狐浏览器菲尼克斯强制启用; [增强]“新功能”对话框已更新；[固定] 2.6.8代理被自动移除; DnsLibs更新为v1.4.14 [加强] DOQ /卫生部/点查询使用回退重试之前; [Other] DoQ支持已添加到DNS标记中。Mod信息：**高级功能已解锁；****没有带有修补水印的启动；****跳过启动教程。****该应用没有广告。**更多信息：&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://545c.com/dir/17587959-41589668-454c93&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41589668-454c93&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        
-    </channel>
+      
+    </item>
+    
+  </channel>
 </rss>

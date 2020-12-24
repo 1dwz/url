@@ -1,98 +1,149 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="https://dl999.netlify.app/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://dl999.netlify.app/about/</loc>
+    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
   
   <url>
     <loc>https://dl999.netlify.app/</loc>
     <lastmod>2020-12-24T19:00:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/hermit-lite-apps-browser/</loc>
     <lastmod>2020-12-24T19:00:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/</loc>
     <lastmod>2020-12-24T19:00:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/bsplayer-pro/</loc>
     <lastmod>2020-12-24T16:14:25+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/xplayer-video-player-all-format-apk/</loc>
     <lastmod>2020-12-24T15:59:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/nova-launcher/</loc>
     <lastmod>2020-12-24T13:26:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dl999.netlify.app/post/nova-launcher/</loc>
+    <lastmod>2020-12-24T13:26:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/learn-languages-rosetta-stone-apk/</loc>
     <lastmod>2020-12-24T11:42:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/video-compressor-panda/</loc>
     <lastmod>2020-12-23T20:27:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/video-compressor-compact-video/</loc>
     <lastmod>2020-12-23T20:20:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/mx_player/</loc>
     <lastmod>2020-12-23T19:08:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/speedtest-by-ookla/</loc>
     <lastmod>2020-12-23T16:53:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/zarchiver-pro/</loc>
     <lastmod>2020-12-23T16:33:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/rar-for-android/</loc>
     <lastmod>2020-12-23T16:21:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/killapps-pro-close-all-apps-running-apk/</loc>
     <lastmod>2020-12-23T13:29:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/sd-maid-system-cleaning-tool-apk/</loc>
     <lastmod>2020-12-23T12:55:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/app-cloner-apk-download-full/</loc>
     <lastmod>2020-12-23T12:00:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/adguard-premium-apk/</loc>
     <lastmod>2020-12-23T10:53:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
