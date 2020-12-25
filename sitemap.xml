@@ -9,15 +9,22 @@
   </url>
   
   <url>
+    <loc>https://dl999.netlify.app/post/accubattery/</loc>
+    <lastmod>2020-12-26T01:09:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://dl999.netlify.app/</loc>
-    <lastmod>2020-12-25T21:18:39+08:00</lastmod>
+    <lastmod>2020-12-26T01:09:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/</loc>
-    <lastmod>2020-12-25T21:18:39+08:00</lastmod>
+    <lastmod>2020-12-26T01:09:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

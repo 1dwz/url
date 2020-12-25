@@ -6,7 +6,7 @@
     <description>Recent content on dl999.netlify.app</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 25 Dec 2020 21:18:39 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Dec 2020 01:09:02 +0800</lastBuildDate>
     
         <atom:link href="https://dl999.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     
@@ -27,6 +27,59 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>AccuBattery - Battery Health v1.3.5.10221 测试版 专业版</title>
+      <link>https://dl999.netlify.app/post/accubattery/</link>
+      <pubDate>Sat, 26 Dec 2020 01:09:02 +0800</pubDate>
+      
+      <guid>https://dl999.netlify.app/post/accubattery/</guid>
+      
+        <description>&lt;p&gt;●旨在使您的电池保持最佳状态– AndroidHeadlines&lt;/p&gt;
+&lt;p&gt;Accu‐Battery保护电池健康，显示电池使用情况信息，并基于科学方法测量电池容量（mAh）。&lt;/p&gt;
+&lt;p&gt;●电池健康
+电池使用寿命有限。每次对设备充电时，它都会耗尽电池，从而降低其总容量。科学研究表明，将设备充电到80％时，电池寿命可以延长200％。&lt;/p&gt;
+&lt;p&gt;-使用我们的充电警报器可以延长电池寿命。
+-了解充电过程中电池的使用寿命。&lt;/p&gt;
+&lt;p&gt;●电池使用情况
+Accu Battery使用电池充电控制器中的信息来测量实际电池使用情况。通过将这些测量结果与有关哪个应用程序在前台的信息结合起来，确定每个应用程序的电池使用情况。Android使用设备制造商提供的预烘焙配置文件来计算电池使用情况，例如CPU使用的电量。但是，实际上，这些数字非常不准确。&lt;/p&gt;
+&lt;p&gt;-监控设备使用的电池电量
+-知道设备处于活动状态或待机状态时可以使用多长时间
+-找出每个应用程序消耗的电量。
+-检查您的设备从深度睡眠中唤醒的频率。&lt;/p&gt;
+&lt;p&gt;●充电速度
+使用Accu电池为您的设备找到最快的充电器和USB电缆。测量充电电流（以mA为单位）以找出问题！&lt;/p&gt;
+&lt;p&gt;-检查屏幕打开或关闭时设备充电的速度。
+-了解手机充电需要多长时间以及何时完成。&lt;/p&gt;
+&lt;p&gt;●要点
+-测量实际电池容量（以mAh为单位）。
+-使用充电警报器延长电池寿命。
+-查看每次充电后电池的电量消耗。
+-查找每个应用的放电速度和电池消耗。
+-剩余的充电时间-了解电池充电需要多长时间。
+-剩余使用时间-知道何时耗尽电池。
+-打开或关闭估算值。
+-当设备处于待机模式时，请检查深度睡眠的百分比。
+-实时电池电量统计的持续通知一目了然。&lt;/p&gt;
+&lt;p&gt;●专业功能
+-实时CPU和电源使用情况叠加图，用于发现电池耗尽过程。
+-使用深色和AMOLED黑色主题以节省能源。
+-可以参加超过1天的历史会议。
+-通知中有详细的电池统计信息。
+-无广告&lt;/p&gt;
+&lt;p&gt;我们是一家小型的独立应用程序开发人员，专注于质量和对电池统计数据的热情。AccuBattery不需要访问对隐私敏感的信息，也不会做出虚假声明。如果您喜欢我们的工作方式，请通过升级到Pro版本来支持我们。&lt;/p&gt;
+&lt;p&gt;•添加了针对损坏的Android 10 ROM的解决方法-电池状态更改未正确发送到应用程序，导致卡住了值。
+•修复了通知声音问题-设置重置为默认值。&lt;/p&gt;
+&lt;p&gt;Mod信息：
+&lt;strong&gt;●Pro功能已解锁
+●删除了分析功能●
+兼容AOSP
+●由Kirlif发布&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;此应用没有广告&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41857813-e67380&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
@@ -830,41 +883,6 @@ Fabric Crashlytics服务已删除
 仅限手动数据消耗（用于缩略图）已
 删除匿名Bug数据传输&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41834425-3b577d&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Adguard-无需根目录即可阻止广告v3.61&#43;v4.0.48ƞ</title>
-      <link>https://dl999.netlify.app/post/adguard-premium-apk/</link>
-      <pubDate>Wed, 23 Dec 2020 10:53:23 +0800</pubDate>
-      
-      <guid>https://dl999.netlify.app/post/adguard-premium-apk/</guid>
-      
-        <description>&lt;p&gt;&lt;strong&gt;Adguard-无需root即可阻止广告v3.6.1 [Final] [Premium] [Mod]&lt;/strong&gt;
-要求： 5.0+
-概述：世界上最先进的广告阻止程序！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/adguard-premium-apk/download.png&#34; alt=&#34;图片&#34;&gt;
-&lt;img src=&#34;https://gitee.com/dl999/pic/raw/master/adguard-premium-apk/download1.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AdGuard是摆脱侵入性广告和在线跟踪并保护您的设备免受恶意软件攻击的最佳方法。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;借助AdGuard，可以使您的网上冲浪更快，更安全，更舒适！&lt;/p&gt;
-&lt;p&gt;AdGuard是适用于Android的独特的无根广告阻止程序，可删除应用程序和浏览器中的广告，保护您的隐私并帮助您管理应用程序
-易于安装和使用，但功能强大且高度可定制-它具有您所需的一切从Android adblock工具中获取，并且可以在有根和无根设备上使用。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;为什么选择AdGuard？&lt;/strong&gt;
-&lt;strong&gt;在各处&lt;/strong&gt;
-屏蔽&lt;strong&gt;广告在&lt;/strong&gt;整个系统内屏蔽&lt;strong&gt;广告&lt;/strong&gt;。这包括视频广告以及您喜欢的应用程序，浏览器，游戏以及您可以想象的任何网站上的广告。您可以使用数十种广告过滤器，并会定期进行更新，以确保最佳的过滤质量。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;关心您的隐私&lt;/strong&gt;
-我们最重视您的个人数据的隐私。借助AdGuard，您可以免受潜伏在网络上试图窃取您的敏感信息的在线跟踪器和分析系统的影响。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;节省您的流量&lt;/strong&gt;
-更多的广告被阻止意味着更少的广告加载。加载的广告越少，意味着节省的流量越多。AdGuard的简单数学！下载apk文件，安装应用程序，然后将您的流量花在您喜欢的事情上，而不是将其浪费在贪婪的广告上。始终由您&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;掌控&lt;/strong&gt;
-毕竟，这是您的设备，您可以决定要过滤的内容和不过滤的内容。从基本设置到“专业版”的各种设置以及Apps Management工具将帮助您根据自己的喜好自定义过滤条件。&lt;/p&gt;
-&lt;p&gt;免费试用适用于Android应用的AdGuard广告拦截器，并感受与众不同！在平板电脑或手机上使用我们的应用程序后，您再也不想回头了。&lt;/p&gt;
-&lt;p&gt;新增功能：
-AdGuardAndroid v3.6的两个重大变化（甚至是新功能）成为标题。它正在观看YouTube在该应用内的无广告广告以及DNS-over-QUIC协议支持。第一个是容易掌握，第二个会需要一些解释。&lt;strong&gt;[增强]的选项观看YouTube无广告&lt;/strong&gt;在Android版YouTube拦截广告一直独占的浏览器很长一段时间，由于Android的限制操作系统会强制过滤其他应用的流量。但是，我们找到了一种避免在YouTube应用中投放广告的方法。按照这些简单的步骤：打开YouTube应用，并开始想要观看的视频。点按“共享”按钮，然后从应用程序列表中选择AdGuard for Android。&lt;/p&gt;
-&lt;p&gt;一个新窗口会弹出，您就可以观看视频，而无需通过广告被打断！&lt;strong&gt;[增强] DNS-过QUIC支持&lt;/strong&gt;DNS-过QUIC，或者干脆DOQ，是一个DNS加密协议。您可能之前已经听说过DNS加密协议，最常见的是HTTPS上的DNS和TLS上的DNS（分别为DoH和DoT）。那么，什么使DoQ如此特别？一堆东西，真的：外的开箱密码，减少连接时间，以及更好的性能在丢失的数据包的情况下，该功能仍处于试验- AdGuard为Android是第一个开源实现之一DNS-over-QUIC的功能-但是它运行良好，建议您尝试一下。您可以在DNS过滤下找到它。选择&lt;/p&gt;
-&lt;p&gt;AdGuard DNS并选择DOQ从可用的加密协议之中。[增强] HTTPS过滤的火狐浏览器菲尼克斯强制启用; [增强]“新功能”对话框已更新；[固定] 2.6.8代理被自动移除; DnsLibs更新为v1.4.14 [加强] DOQ /卫生部/点查询使用回退重试之前; [Other] DoQ支持已添加到DNS标记中。Mod信息：**高级功能已解锁；****没有带有修补水印的启动；****跳过启动教程。****该应用没有广告。**更多信息：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://545c.com/dir/17587959-41589668-454c93&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
