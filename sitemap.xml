@@ -2,36 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dl999.netlify.app/</loc>
-    <lastmod>2020-12-31T13:28:18+08:00</lastmod>
+    <loc>https://dl999.netlify.app/post/2020-12-31_15-33-38/</loc>
+    <lastmod>2020-12-31T15:33:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://dl999.netlify.app/post/2020-12-31_13-28-18/2020-12-31_13-28-18/</loc>
-    <lastmod>2020-12-31T13:28:18+08:00</lastmod>
+    <loc>https://dl999.netlify.app/</loc>
+    <lastmod>2020-12-31T15:33:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dl999.netlify.app/post/</loc>
+    <lastmod>2020-12-31T15:33:38+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dl999.netlify.app/post/2020-12-31_15-27-32/</loc>
+    <lastmod>2020-12-31T15:27:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dl999.netlify.app/post/2020-12-31_15-18-48/</loc>
+    <lastmod>2020-12-31T15:18:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dl999.netlify.app/post/2020-12-31_13-28-18/</loc>
     <lastmod>2020-12-31T13:28:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://dl999.netlify.app/post/2020-12-31_13-23-41/2020-12-31_13-23-41/</loc>
+    <loc>https://dl999.netlify.app/post/2020-12-31_13-23-41/</loc>
     <lastmod>2020-12-31T13:23:41+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dl999.netlify.app/post/229730/229730/</loc>
-    <lastmod>2020-12-30T23:13:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
