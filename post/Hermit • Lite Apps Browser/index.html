@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"dl999.netlify.app","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="要求： Android 5.0及更高版本概述：使用Hermit，您可以将大型本地应用替换为基于Web的Lite Apps。 ANDROID P是测试版软件，内容包含错误由于Android P错误，Hermit在Android P上崩溃了，在Google修复潜在的不稳定性之前，我们无能为力。在过去的3年中，我们一直以最新的Android稳定版为目标而自豪。请不要因为某些不是我们的错而对您进行不好的评">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hermit • Lite Apps Browser _v16.6.4-先行测试版 破解专业版">
+<meta property="og:url" content="https://dl999.netlify.app/post/Hermit%20%E2%80%A2%20Lite%20Apps%20Browser/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="要求： Android 5.0及更高版本概述：使用Hermit，您可以将大型本地应用替换为基于Web的Lite Apps。 ANDROID P是测试版软件，内容包含错误由于Android P错误，Hermit在Android P上崩溃了，在Google修复潜在的不稳定性之前，我们无能为力。在过去的3年中，我们一直以最新的Android稳定版为目标而自豪。请不要因为某些不是我们的错而对您进行不好的评">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-12-24T03:00:11.000Z">
+<meta property="article:modified_time" content="2020-12-25T18:30:31.377Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://dl999.netlify.app/post/Hermit%20%E2%80%A2%20Lite%20Apps%20Browser/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Hermit • Lite Apps Browser _v16.6.4-先行测试版 破解专业版 | Hexo</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Hexo</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/Hermit%20%E2%80%A2%20Lite%20Apps%20Browser/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Hermit • Lite Apps Browser _v16.6.4-先行测试版 破解专业版
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-24 11:00:11" itemprop="dateCreated datePublished" datetime="2020-12-24T11:00:11+08:00">2020-12-24</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 02:30:31" itemprop="dateModified" datetime="2020-12-26T02:30:31+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>要求： Android 5.0及更高版本<br>概述：使用Hermit，您可以将大型本地应用替换为基于Web的Lite Apps。</p>
+<p><strong>ANDROID P是测试版软件，内容包含</strong>错误由于Android P错误，<br>Hermit在Android P上崩溃了，在Google修复潜在的不稳定性之前，我们无能为力。在过去的3年中，我们一直以最新的Android稳定版为目标而自豪。请不要因为某些不是我们的错而对您进行不好的评价。</p>
+<p><strong>LITE APPS</strong>与Hermit进行<br>了出色的Android集成的快速，小型Web应用程序<br>，您可以将大型本地应用替换为基于Web的精简应用。<br>浏览速度更快，保存数据，屏蔽广告，保护您的隐私，在夜间模式下浏览，阅读器视图以及为每个Lite应用程序提供20多种不同的自定义Lite应用程序！<br>隐士的内存不足3 MB，而许多流行的社交网络和新闻应用程序的内存超过50MB。</p>
+<p><strong>浏览更快。保存数据。</strong><br>隐士加快了浏览速度，同时还保护了您的隐私。<br>无广告。甚至没有免费版本。<br>广告拦截器：使所有网页保持精简，小巧美观。<br>弹出窗口阻止程序：防止不安全和具有欺骗性的网站打开新标签页或振动手机。<br>JavaScript阻止程序：使大多数页面加载速度更快。<br>数据保护程序模式：通过减小图像大小来加快浏览速度。</p>
+<p><strong>保护您的隐私。</strong><br>关注隐私：没有广告，没有行为跟踪，没有收集个人信息。<br>网络钓鱼和恶意软件防护：Hermit阻止任何尝试安装本机Android应用程序的尝试，并集成了Google的恶意软件拦截器。<br>隐身键盘：您键入的任何网站网址都会被您的键盘标记为私人网址，并且不会用于个性化自动完成功能。</p>
+<p><strong>超级浏览功能</strong><br>夜间模式：在夜间模式下以深色背景和浅色文本查看任何网站。<br>读者观点：专注于文章。<br>预计阅读时间：查看文章阅读需要多长时间，然后跳转到“读者视图”。<br>多窗口：在Android Nougat及更高版本上一次使用两个Lite应用程序。<br>直接共享：从任何Android应用程序共享文本和链接到Hermit Lite应用程序。<br>方向：选择是否要让Lite应用程序始终打开“垂直”或“水平”。<br>文字大小：增加/减小文字大小以提高可读性。<br>Double Back：是否因为后退按钮将您带到同一页面而卡住了？试试Hermit的Double Back功能！</p>
+<p><strong>安卓系统集成</strong><br>添加主屏幕图标：其他浏览器仅添加图标而忘记了您的设置。隐士使其成为真正的Lite应用程序。自己比较一下：]<br>如果您的Lite应用程序已经打开，则Hermit不会打开新选项卡，就像本机应用程序一样。<br>Atom / RSS Feed通知：网站发布新内容时立即得到通知。<br>Web监视器：不支持源？隐士可以监视任何网页的任何特定部分，并在更改时通知您。</p>
+<p><strong>无限的定制</strong><br>没有其他浏览器可让您自定义与Hermit一样多的设置，并且它们是为每个Lite App单独保存的。<br>自定义图标：为您的Lite应用选择任何图标，或创建自定义会标！<br>拾色器：创建自己的主题。<br>文字大小：分别更改和保存每个站点的设置。<br>桌面模式：加载桌面网站，而不是移动网站。<br>无框模式和全屏模式：您必须自己尝试一下！</p>
+<p><strong>简单定价：两种选择</strong><br>高级：无限Lite应用和其他高级功能<br>永久免费：仅限3 Lite应用</p>
+<p>我们尊重您的隐私，因此我们不会收集任何个人信息或出售您的数据。您是我们多年来支持功能丰富的创新更新的唯一支持来源。谢谢！</p>
+<p>新增功能：<br>✨重新整理每个精简版应用程序和主应用程序的设置。更清晰，易于浏览，更美观<br>✨多年前以便宜的价格获得了Premium？对5年以上的更新满意吗？获得了Play商店信用并想显示您的支持吗？温馨提示被接受！（在“设置”中）<br>✨始终为所有请求设置自定义用户代理：某些供稿需要<br>✨颜色匹配站点的方案<br>✨一键快速关闭窗口correctly正确<br>设置深色模式<br>✨从URL正确打开新创建的Lite应用程序</p>
+<p><strong>修改信息：<br>●已解锁高级功能<br>●已解锁<br>**抢先体验</strong>程序**<strong>●无需解锁**</strong>●已删除分析**<strong>●兼容AOSP</strong> <strong>●3.3 MB</strong> <strong>●由Kirlif发布</strong></p>
+<p><strong>此应用程序没有广告</strong></p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/dir/17587959-41603333-50b1e1">点击下载</a><br>如果下载出现问题请私信我</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/post/BSPlayer-Pro/" rel="prev" title="BSPlayer Pro v3.10.231-20201215 build 2106159 [Paid]">
+      <i class="fa fa-chevron-left"></i> BSPlayer Pro v3.10.231-20201215 build 2106159 [Paid]
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/post/sd-maid-system-cleaning-tool-apk/" rel="next" title="SD女仆–系统清理工具5.0.6 APK + 修改（已修补）Android">
+      SD女仆–系统清理工具5.0.6 APK + 修改（已修补）Android <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

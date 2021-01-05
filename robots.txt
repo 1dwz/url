@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://dl999.netlify.app/sitemap.xml

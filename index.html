@@ -1,993 +1,1082 @@
 <!DOCTYPE html>
-<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>dl999.netlify.app</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"dl999.netlify.app","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="https://dl999.netlify.app/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://dl999.netlify.app/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Hexo</title>
   
 
-<meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
-
-<meta name="MobileOptimized" content="width"/>
-<meta name="HandheldFriendly" content="true"/>
-
-
-<meta name="applicable-device" content="pc,mobile">
-
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-<meta name="mobile-web-app-capable" content="yes">
-
-<meta name="author" content="007" />
 
 
 
 
 
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
 
-<meta name="generator" content="Hugo 0.79.1" />
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-
-<link rel="canonical" href="https://dl999.netlify.app/" />
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="dl999.netlify.app" />
-
-
-
-
-<link rel="icon" href="/favicon.ico" />
-
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" href="/sass/jane.min.b3a8813c06e6d785beba22bf8264e174fa2cb3a396b22f9ba24e2c00c18aaf7f.css" integrity="sha256-s6iBPAbm14W&#43;uiK/gmThdPoss6OWsi&#43;bok4sAMGKr38=" media="screen" crossorigin="anonymous">
-
-
-
-
-
-<meta property="og:title" content="dl999.netlify.app" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://dl999.netlify.app/" />
-<meta property="og:updated_time" content="2021-01-01T18:05:46+08:00" />
-<meta itemprop="name" content="dl999.netlify.app">
-<meta itemprop="description" content="">
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="dl999.netlify.app"/>
-<meta name="twitter:description" content=""/>
-
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
-
-
-<script>
-  var _hmt = _hmt || [];
-  (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?5eac1928545d13f3bb653a49b11f1b1e";
-    var s = document.getElementsByTagName("script")[0]; 
-    s.parentNode.insertBefore(hm, s);
-  })();
-  </script>
-  <meta name="baidu-site-verification" content="code-49y2BwZhRz" />
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
 
 </head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">dl999.netlify.app</a>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
   </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Hexo</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
   </div>
 </div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dl999.netlify.app/">主页</a>
-          
-        
-      </li><li class="mobile-menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dl999.netlify.app/%E6%96%87%E7%AB%A0/">存档</a>
-          
-        
-      </li>
-    
-
-    
-  </ul>
-</nav>
-
-
-  
-    
 
 
 
 
-
-
-  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
-  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
-
-
-
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-
-  
-
-  
-
-  
-
-  <header id="header" class="header container">
-    <div class="logo-wrapper">
-  <a href="/" class="logo">
-    
-      dl999.netlify.app
-    
-  </a>
-</div>
-
-<nav class="site-navbar">
+<nav class="site-nav">
   <ul id="menu" class="menu">
-    
-    
-        <li class="menu-item active">
-        
-          
-          
-            <a class="menu-item-link" href="https://dl999.netlify.app/">主页</a>
-          
+        <li class="menu-item menu-item-home">
 
-        
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
       </li>
-    
-        <li class="menu-item">
-        
-          
-          
-            <a class="menu-item-link" href="https://dl999.netlify.app/%E6%96%87%E7%AB%A0/">存档</a>
-          
-
-        
-
-      </li>
-    
-
-    
-    
-
-    
   </ul>
 </nav>
 
-  </header>
 
-  <div id="mobile-panel">
-    <main id="main" class="main bg-llight">
-      <div class="content-wrapper">
-        <div id="content" class="content container">
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
           
-<section id="posts" class="posts">
-  
-  
-    
-  
-  
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2021-01-01_18-05-46/">MIU12图标包 v2.1.3 [已修补]</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2021-01-01" class="post-time">
-        2021-01-01
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      * 4410个分辨率为2K SuperHD +（360x360）像素的图标！ * 4400+支持的应用程序！ * 80张分辨率为2K（1440x2560）像素的高清壁
-    </div>
-    <div class="read-more">
-      <a href="/post/2021-01-01_18-05-46/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
 
+          <div class="content index posts-expand">
+            
+      
   
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2020-12-31_19-00-09/">静读天下（*VIP*）v6.4.0直装/专业/去验证/高级/会员版</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
   
-  <div class="post-content">
-    
-    <div class="post-summary">
-      © 一个人的冬季 超级版主 / 2020-12-31 18:13 / 0 人收藏 保留作者信息 禁止商业使用（站长自定义文字） 8832 软件名称：静读天下（*PRO*）软件版本：v6.4.0_去
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_19-00-09/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/2020-12-31_13-28-18/2020-12-31_13-28-18/">
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2020-12-31_16-18-34/">多临国 4.92.4 APK &#43; Mod（完全解锁）</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      学习西班牙语，法语，德语，意大利语，葡萄牙语，荷兰语，爱尔兰语，丹麦语，瑞典语和英语。完全有趣，而且100％免费。 Google Play的编辑之选和20
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_16-18-34/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2020-12-31_16-17-18/">火柴人大师1.7.4 APK &#43; Mod</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      火柴人大师：影子联盟–忍者传说1.7.4 APK + Mod（免费购物）为Android 离线 成为传奇忍者大师的影子战士，并在STICKMAN MASTE
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_16-17-18/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/2020-12-31_13-28-18/2020-12-31_13-28-18/" class="post-title-link" itemprop="url">Nova Launcher v7.0.4 [Beta] [Prime] [Mod]</a>
+        </h2>
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2020-12-31_16-09-45/">全能扫描王破解版 5.32.0.20201222（解锁）Android</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      促销！！推荐朋友使用CamScanner，获得免费的Premium。 全球第一的移动文档扫描和共享应用程序，在200多个国家/地区拥有超过1亿
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_16-09-45/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2020-12-31_15-33-38/">ActionDirector视频编辑器6.0.3 APK（已解锁）</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      ActionDirector视频编辑器6.0.3 的.apk解锁的Android ActionDirector是唯一需要录制视频，编辑视频，应用
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_15-33-38/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+              <time title="创建时间：2020-12-31 05:28:18 / 修改时间：13:31:39" itemprop="dateCreated datePublished" datetime="2020-12-31T05:28:18+08:00">2020-12-31</time>
+            </span>
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2020-12-31_15-27-32/">PhotoDirector Photo Editor App 14.4.0 Apk &#43; Mod（完全解锁）Android</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      PhotoDirector照片编辑器应用程序更改您的智能手机照片，使它们看起来像是在佳能或尼康上拍摄的照片。用Photoshop制作旅行图片
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_15-27-32/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+          
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2020-12-31_15-18-48/">Lucky Patcher 9.2.1（Full）Apk &#43; MOD [最新]</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      Lucky Patcher是一款出色的Android工具，可以删除广告，修改权限，绕过高级应用程序许可证验证等。您可以使用此修补程序破坏某些应用程序的
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_15-18-48/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+        </div>
+      </header>
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/2020-12-31_13-28-18/">Nova Launcher v7.0.4 [Beta] [Prime] [Mod]</a>
-    </h1>
     
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
     
-    <div class="post-summary">
-      高度可定制，性能驱动的主屏幕。不能替代！Nova Launcher是现代Android的顶级启动器，始终采用完整的Material Design
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_13-28-18/" class="read-more-link">阅读全文</a>
-    </div>
     
-  </div>
-</article>
+    <div class="post-body" itemprop="articleBody">
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
       
-      <a class="post-link" href="/post/2020-12-31_13-23-41/">带有背景去除剂的照片编辑器-MagiCut v4.5.1.1 [Vip]</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-31" class="post-time">
-        2020-12-31
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      功能 删除天空-用任何背景替换它你要。 自动剪切-轻松剪切和粘贴照片。 删除对象-使用魔术笔删除照片中不需要的任何对象。 Collage Maker-有很多网格和
-    </div>
-    <div class="read-more">
-      <a href="/post/2020-12-31_13-23-41/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
+          <p>高度可定制，性能驱动的主屏幕。不能替代！Nova Launcher是现代Android的顶级启动器，始终采用完整的Material Design。</p>
+<p><img src="https://images.mobilism.org/?dm=U4PR" alt="图片"><img src="https://images.mobilism.org/?dm=6T2HMME6" alt="图片"></p>
+<p><em>为了我的钱，Nova Launcher是Android中最好的AOSP风格的启动器。</em>- <strong>Android的警察</strong><br><em>新星发射具有一定的动手能力很强背后</em>- <strong>Phandroid</strong><br><em>我们最喜欢的是新星发射器，其罢工令人难以置信的性能和高可定制性之间存在极大的完美平衡，没有过于花哨的，难以用</em>- <strong>Lifehacker的</strong><br><em>充满了你不会在股票启动发现功能，并强烈推荐</em>-<strong>安卓中央</strong></p>
+<p>• <strong>图标主题</strong>-在游戏找到成千上万的图标主题的新星发射店<br>• <strong>次网格定位</strong>-比标准发射装置，新星更大的控制权Launcher允许您在桌面网格单元的中间位置捕捉图标或小部件<br>• <strong>颜色控件</strong>-用于标签，文件夹，未读的徽章，抽屉选项卡和背景<br>• <strong>自定义应用程序抽屉</strong>-自定义选项卡，垂直或水平滚动，自定义效果<br>• <strong>改进的小部件抽屉</strong>-按应用程序分组的小部件使使用更加快捷<br>• <strong>无限滚动</strong>-永远不会离开您喜欢的页面，连续在桌面或抽屉中循环<br>• <strong>备份/还原</strong>-先进的备份/还原系统，可让您备份桌面布局和启动器设置<br>•可 <strong>滚动的扩展坞</strong>-创建多个<strong>扩展坞</strong>并在它们之间滚动<br>• <strong>小部件在扩展坞中</strong>-将任何小部件（例如4x1音乐播放器小部件）放置在扩展坞中<br>• <strong>导入布局</strong>-无需从头开始重建桌面，Nova Launcher可以从最受欢迎的启动器中导入。包括手机随附的手机。<br>• <strong>快速</strong>-Nova Launcher经过高度优化，可以快速，安静地工作，保持动画流畅，让您在移动手指时尽可能快地使用手机。</p>
+<p><strong>Nova Launcher Prime</strong><br>通过购买<strong>Nova Launcher Prime来</strong>解锁以下附加功能<br>• <strong>手势</strong>-在主屏幕上轻扫，捏合，双击等更多操作，以打开您喜欢的应用程序<br>• <strong>未读</strong>邮件-绝不会错过任何消息。使用TeslaUnread插件为环聊，SMS，Gmail和其他应用提供未读计数徽章<br>• <strong>自定义抽屉组</strong>-在应用抽屉中创建新标签或文件夹<br>• <strong>隐藏应用</strong>-通过隐藏未使用的应用来保持干净的应用抽屉<br>• <strong>图标滑动</strong>-设置用于在应用程序快捷方式或文件夹上滑动的自定义操作<br>• <strong>更多滚动效果</strong>-例如“擦除”，“手风琴”和“投掷”</p>
+<p>此应用程序使用“设备管理员”权限来启用可选的屏幕关闭/锁定功能。</p>
+<p>新增功能：<br>新的自适应图标形状<br>-Android 11中的花朵，卵石和容器<br>-五角大楼，六边形，七边形和八边形<br>Bug修复和优化</p>
+<p>Mod信息：<br><strong>主要功能已解锁-无需其他键；<br>优化图形并清除默认墙纸；<br>残疾人率和社交菜单；<br>禁用/删除不需要的权限+接收者和服务；<br>Analytics（分析）/ Crashlytics（崩溃）已禁用。</strong></p>
+<p><strong>这个程序没有广告</strong></p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/file/17587959-477930962">点击下载</a></p>
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/alight-motion/">Alight Motion 频和动画编辑器v3.6.1 专业版</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-26" class="post-time">
-        2020-12-26
-      </time>
-      
-      
-      
       
     </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      成为运动的一部分！Alight Motion是首款适用于智能手机的专业运动图形应用程序，可为您带来专业品质的动画，运动图形，视觉效果，视频编辑
-    </div>
-    <div class="read-more">
-      <a href="/post/alight-motion/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
 
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/accubattery/">AccuBattery - Battery Health v1.3.5.10221 测试版 专业版</a>
-    </h1>
     
-    <div class="post-meta">
-      <time datetime="2020-12-26" class="post-time">
-        2020-12-26
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
     
-    <div class="post-summary">
-      ●旨在使您的电池保持最佳状态– AndroidHeadlines Accu‐Battery保护电池健康，显示电池使用情况信息，并基于科学方法测量电池容量（mAh）。 ●电池健康
-    </div>
-    <div class="read-more">
-      <a href="/post/accubattery/" class="read-more-link">阅读全文</a>
-    </div>
     
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/retro-music-player/">Retro Music Player v4.0.010_1012202056 [专业版]</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-25" class="post-time">
-        2020-12-25
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      它将成为您最喜欢的音乐播放器♥ 🧭导航从未如此轻松 自解释界面，没有过多的菜单。 🎨彩色 您可以在三个不同的主题之间进行选择：AMOLED显示屏的鲜
-    </div>
-    <div class="read-more">
-      <a href="/post/retro-music-player/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/sd-maid-system-cleaning-tool-apk/">SD女仆–系统清理工具5.0.6 APK &#43; 修改（已修补）Android</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-25" class="post-time">
-        2020-12-25
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      没有人是完美的，Android也不是。 您已删除的应用，有时会留下数据。 系统会不断创建您真正不需要的日志，崩溃报告和调试文件。 SD卡正在收集您
-    </div>
-    <div class="read-more">
-      <a href="/post/sd-maid-system-cleaning-tool-apk/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/hermit-lite-apps-browser/">Hermit • Lite Apps Browser _v16.6.4-先行测试版 破解专业版</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-24" class="post-time">
-        2020-12-24
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      要求： Android 5.0及更高版本 概述：使用Hermit，您可以将大型本地应用替换为基于Web的Lite Apps。 ANDROID P是测试版软件，内容包含错误由于A
-    </div>
-    <div class="read-more">
-      <a href="/post/hermit-lite-apps-browser/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/bsplayer-pro/">BSPlayer Pro v3.10.231-20201215 build 2106159 [Paid]</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-24" class="post-time">
-        2020-12-24
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      BSPlayer Pro v3.10.231-20201215 build 2106159 [付费] 要求： 5.0+ 概述：这是BSPlayer多媒体播放器的完整，无广告版本，具有其他功能。 BSPlayer是适用于Android设备
-    </div>
-    <div class="read-more">
-      <a href="/post/bsplayer-pro/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/xplayer-video-player-all-format-apk/">XPlayer（视频播放器所有格式）2.1.9.1 [Unlocked] Apk &#43; 修改 Android</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-24" class="post-time">
-        2020-12-24
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      [] Google Play 2017年最佳获胜者 ★评分最高的（4.8）★视频播放器！ 下载最新版本**所有格式的视频播放器-XPlayer** Full Apk通过[rexd
-    </div>
-    <div class="read-more">
-      <a href="/post/xplayer-video-player-all-format-apk/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/nova-launcher/">Nova Launcher v6.2.18 [Final] [Prime]</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-24" class="post-time">
-        2020-12-24
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      高度可定制，性能驱动的主屏幕。不能替代！Nova Launcher是现代Android的顶级启动器，始终采用完整的Material Design
-    </div>
-    <div class="read-more">
-      <a href="/post/nova-launcher/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/learn-languages-rosetta-stone-apk/">Rosetta Stone：学习语言v7.2.0 [已解锁] [最新]</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-24" class="post-time">
-        2020-12-24
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      学习语言Rosetta Stone 从第一天开始讲新语言！免费尝试第一堂课。学习西班牙语（拉丁美洲或西班牙），英语（美国或英国），法语，意大利语，德语，
-    </div>
-    <div class="read-more">
-      <a href="/post/learn-languages-rosetta-stone-apk/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-    <article class="post bg-white">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/video-compressor-panda/">熊猫视频压缩器 Premium v1.1.22 修改 APK</a>
-    </h1>
-    
-    <div class="post-meta">
-      <time datetime="2020-12-23" class="post-time">
-        2020-12-23
-      </time>
-      
-      
-      
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    
-    <div class="post-summary">
-      熊猫视频恭喜你！您刚刚找到了最好的视频压缩器和视频缩放器应用程序来压缩视频。该压缩视频工具使您甚至可以通过电子邮件发送视频。我们不是在开玩笑
-    </div>
-    <div class="read-more">
-      <a href="/post/video-compressor-panda/" class="read-more-link">阅读全文</a>
-    </div>
-    
-  </div>
-</article>
-
-  
-</section>
-
-
-
-
-
-
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
   
   
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/2020-12-31_13-23-41/2020-12-31_13-23-41/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/2020-12-31_13-23-41/2020-12-31_13-23-41/" class="post-title-link" itemprop="url">带有背景去除剂的照片编辑器-MagiCut v4.5.1.1 [Vip]</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-12-31 05:23:41 / 修改时间：13:32:00" itemprop="dateCreated datePublished" datetime="2020-12-31T05:23:41+08:00">2020-12-31</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="https://images.mobilism.org/?dm=2GSR" alt="图片"></p>
+<p><img src="https://images.mobilism.org/?dm=KT2H" alt="图片"><br>功能<br>删除天空-用任何背景替换它你要。</p>
+<p>自动剪切-轻松剪切和粘贴照片。</p>
+<p>删除对象-使用魔术笔删除照片中不需要的任何对象。</p>
+<p>Collage Maker-有很多网格和框架可供选择。</p>
+<p>MEME-制作有趣的MEME和GIF。</p>
+<p>专业调整-修复旧照片。</p>
+<p>特殊效果-制作具有卡通或模糊效果的艺术照片。</p>
+<p>照片编辑器-提供满足您所有需求的有用的编辑工具。</p>
+<p>文字编辑-选择您喜欢的任何字体，或者只是在屏幕上涂鸦。</p>
+<p>== Smart CutOut ==</p>
+<p>使用MagiCut，您可以轻松创建精美的图片。“自动剪切和粘贴”将通过“检测AI”选择并提取对象，以便您可以粘贴到任何背景上。使用蒙太奇剪辑技术将自己置于您喜欢的任何名人旁边，或者将自己传送到世界的任何角落。</p>
+<p>*使用此抠图编辑器，您可以将多张照片合并为一个背景。</p>
+<p>*我们提供AI技术来识别您的照片，自动删除原始背景并删除不需要的物体。</p>
+<p>*手动处理图片的细节，让您享受编辑的乐趣。</p>
+<p>*调整图片-通过精确控制手动调整对比度曝光和亮度。</p>
+<p>*裁切-将图片裁切成适合所有社交媒体所需的任何尺寸。</p>
+<p>*融合-将具有不同光线和阴影的图像融合在一起，制成醒目的照片。</p>
+<p>*文本-为图像添加艺术字幕。提供了多种样式和字体。</p>
+<p>*涂鸦-提供多种画笔供您在图片上绘制创意涂鸦。</p>
+<p>*模糊-使用模糊效果制作时尚照片。</p>
+<p>*模板-选择由专业设计师创建的100多种布局和模板。</p>
+<p>*美容-使您的眼睛明亮并使皮肤光滑，使您在任何照片中脱颖而出。</p>
+<p>立即下载，玩得开心！</p>
+<p>—与我们联系—<br>电子邮件：<a href="mailto:malick.aiqi@gmail.com">malick.aiqi@gmail.com</a></p>
+<p><strong>Arm7<br>由LunaDev修改</strong></p>
+<p>最新消息：<br>﻿嘿魔术师，<br>启动新版本<br>新界面升级<br>渐变颜色功能-让您的照片拥有更多颜色<br>Emoji Makelet-让您用图片表达情感<br>修复错误<br>享受乐趣编辑！<br>您的Magicut团队</p>
+<p><strong>此应用没有广告</strong></p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/file/17587959-477931032">点击下载</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
   
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/Alight%20Motion/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/Alight%20Motion/" class="post-title-link" itemprop="url">Alight Motion 频和动画编辑器v3.6.1 专业版</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-25 17:30:35" itemprop="dateCreated datePublished" datetime="2020-12-25T17:30:35+08:00">2020-12-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 02:37:29" itemprop="dateModified" datetime="2020-12-26T02:37:29+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="https://gitee.com/dl999/pic/raw/master/Alight-Motion/7.jpg" alt="img"><br>成为运动的一部分！Alight Motion是首款适用于智能手机的专业运动图形应用程序，可为您带来专业品质的动画，运动图形，视觉效果，视频编辑和视频合成。<br>•多层图形，视频和音频<br>•支持矢量和位图（直接在手机上编辑矢量图形！）<br>•视觉效果和色彩校正<br>•关键帧动画可用于所有设置<br>•动画缓动以实现更流畅的运动：从预设中选取或建立自己的时序曲线<br>•基于速度的运动模糊<br>•导出MP4视频或GIF动画<br>•单色和渐变填充效果<br>•边框和阴影效果<br>•图层组一起<br>•保存，便于重复使用自己喜欢的元素在未来的项目<br><img src="https://gitee.com/dl999/pic/raw/master/Alight-Motion/1.jpg" alt="img"><br><img src="https://gitee.com/dl999/pic/raw/master/Alight-Motion/2.jpg" alt="img"><br><img src="https://gitee.com/dl999/pic/raw/master/Alight-Motion/3.jpg" alt="img"><br><img src="https://gitee.com/dl999/pic/raw/master/Alight-Motion/4.jpg" alt="img"><br><img src="https://gitee.com/dl999/pic/raw/master/Alight-Motion/5.jpg" alt="img"><br><img src="https://gitee.com/dl999/pic/raw/master/Alight-Motion/6.jpg" alt="img"><br><img src="https://gitee.com/dl999/pic/raw/master/Alight-Motion/8.jpg" alt="img"></p>
+<p>下车Motion免费提供基本功能和在创建的视频上带有水印的功能。应用程序中有几个付费会员资格选项，可删除水印和访问高级功能。其中的订阅选项会自动更新，直到您取消为止。订阅由Google处理，可以通过Google Play商店应用或Google Play商店网站取消。您可以在Alight Motion需要至少安装1.5GB的RAM并有效运行。</p>
+<p>这是一个新应用程序。尽管我们已尽力确保它在各种手机上都能正常工作，但我们的团队很小，有时会出错。如果您遇到任何问题，或有任何反馈或建议，请随时联系<a href="mailto:support@alightcreative.com">support@alightcreative.com</a>，我们将竭诚为您服务。</p>
+<p>新增功能：<br>Alight Motion 3.6.1<br>•带有搜索和预设的新效果浏览器！<br>•新效果：六角形瓷砖旋转，六角形瓷砖移位<br>•改进的效果：圆点，湍流，亮度键，运动模糊，翻转层，实心磨砂<br>•优化的大多数效果：标签更清晰，数字更合理<br>•新效果指南：详细说明为每一个效果<br>•修复了罕见的错误保存视频编解码器评估结果<br>•可以更改音频重采样器，以在较慢的设备上减少预览滞后时间<br>•修复了错误并改善了性能</p>
+<p>MOD信息<br>付费订阅已解锁<br>单击首次启动时的右下角<br><strong>此应用有信誉广告</strong></p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/dir/17587959-41857834-d53a64">点击下载</a><br>如果下载出现问题请私信我</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
   
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/AccuBattery/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/AccuBattery/" class="post-title-link" itemprop="url">AccuBattery - Battery Health v1.3.5.10221 测试版 专业版</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-25 17:09:02" itemprop="dateCreated datePublished" datetime="2020-12-25T17:09:02+08:00">2020-12-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 02:38:07" itemprop="dateModified" datetime="2020-12-26T02:38:07+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>●旨在使您的电池保持最佳状态– AndroidHeadlines</p>
+<p>Accu‐Battery保护电池健康，显示电池使用情况信息，并基于科学方法测量电池容量（mAh）。</p>
+<p>●电池健康<br>电池使用寿命有限。每次对设备充电时，它都会耗尽电池，从而降低其总容量。科学研究表明，将设备充电到80％时，电池寿命可以延长200％。</p>
+<p>-使用我们的充电警报器可以延长电池寿命。<br>-了解充电过程中电池的使用寿命。</p>
+<p>●电池使用情况<br>Accu Battery使用电池充电控制器中的信息来测量实际电池使用情况。通过将这些测量结果与有关哪个应用程序在前台的信息结合起来，确定每个应用程序的电池使用情况。Android使用设备制造商提供的预烘焙配置文件来计算电池使用情况，例如CPU使用的电量。但是，实际上，这些数字非常不准确。</p>
+<p>-监控设备使用的电池电量<br>-知道设备处于活动状态或待机状态时可以使用多长时间<br>-找出每个应用程序消耗的电量。<br>-检查您的设备从深度睡眠中唤醒的频率。</p>
+<p>●充电速度<br>使用Accu电池为您的设备找到最快的充电器和USB电缆。测量充电电流（以mA为单位）以找出问题！</p>
+<p>-检查屏幕打开或关闭时设备充电的速度。<br>-了解手机充电需要多长时间以及何时完成。</p>
+<p>●要点<br>-测量实际电池容量（以mAh为单位）。<br>-使用充电警报器延长电池寿命。<br>-查看每次充电后电池的电量消耗。<br>-查找每个应用的放电速度和电池消耗。<br>-剩余的充电时间-了解电池充电需要多长时间。<br>-剩余使用时间-知道何时耗尽电池。<br>-打开或关闭估算值。<br>-当设备处于待机模式时，请检查深度睡眠的百分比。<br>-实时电池电量统计的持续通知一目了然。</p>
+<p>●专业功能<br>-实时CPU和电源使用情况叠加图，用于发现电池耗尽过程。<br>-使用深色和AMOLED黑色主题以节省能源。<br>-可以参加超过1天的历史会议。<br>-通知中有详细的电池统计信息。<br>-无广告</p>
+<p>我们是一家小型的独立应用程序开发人员，专注于质量和对电池统计数据的热情。AccuBattery不需要访问对隐私敏感的信息，也不会做出虚假声明。如果您喜欢我们的工作方式，请通过升级到Pro版本来支持我们。</p>
+<p>•添加了针对损坏的Android 10 ROM的解决方法-电池状态更改未正确发送到应用程序，导致卡住了值。<br>•修复了通知声音问题-设置重置为默认值。</p>
+<p>修改信息：<br><strong>●Pro功能已解锁<br>●删除了分析功能●<br>兼容AOSP<br>●由Kirlif发布</strong></p>
+<p><strong>此应用没有广告</strong></p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/dir/17587959-41857813-e67380">点击下载</a><br>如果下载出现问题请私信我</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
   
   
 
+      
   
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/Retro-Music-Player/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/Retro-Music-Player/" class="post-title-link" itemprop="url">Retro Music Player v4.0.010_1012202056 [专业版]</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-25 13:18:39" itemprop="dateCreated datePublished" datetime="2020-12-25T13:18:39+08:00">2020-12-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 02:30:31" itemprop="dateModified" datetime="2020-12-26T02:30:31+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><strong>它将成为您最喜欢的音乐播放器♥</strong></p>
+<p>🧭<strong>导航从未如此轻松</strong></p>
+<p>自解释界面，没有过多的菜单。</p>
+<p>🎨<strong>彩色</strong></p>
+<p>您可以在三个不同的主题之间进行选择：AMOLED显示屏的鲜明白色，深色和纯黑色。<br>从调色板中选择您喜欢的强调颜色。<br><img src="https://gitee.com/dl999/pic/raw/master/Retro-Music-Player/1.jpg" alt="img"><br><img src="https://gitee.com/dl999/pic/raw/master/Retro-Music-Player/2.jpg" alt="img"><br><img src="https://gitee.com/dl999/pic/raw/master/Retro-Music-Player/3.jpg" alt="img"><br>🏠<strong>主页，</strong></p>
+<p>您可以在其中找到最近/最受欢迎的艺术家，专辑和喜欢的歌曲。没有其他音乐播放器具有此功能</p>
+<p>📦<strong>包括的功能</strong></p>
+<p>⭐基本3主题（纯白，近大暗和正黑）</p>
+<p>⭐从10多个正在播放的主题中进行选择</p>
+<p>⭐驱动器模式</p>
+<p>⭐耳机/蓝牙支持</p>
+<p>⭐音乐持续时间过滤</p>
+<p>⭐文件夹支持-逐文件夹</p>
+<p>播放⭐无间隙播放</p>
+<p>⭐音量控件</p>
+<p>⭐专辑封面的轮播效果⭐主屏幕</p>
+<p>小部件</p>
+<p>⭐锁屏播放控件</p>
+<p>⭐歌词屏幕（下载并与音乐同步） ）</p>
+<p>∙睡眠定时器</p>
+<p>⭐主屏幕小部件</p>
+<p>⭐轻松将其排序以排序播放列表和播放队列</p>
+<p>⭐标记编辑器</p>
+<p>⭐创建，编辑，导入播放列表</p>
+<p>⭐重新排序播放队列</p>
+<p>⭐用户配置文件</p>
+<p>⭐30种语言支持</p>
+<p>⭐通过歌曲，专辑，艺术家浏览和播放音乐，播放列表，类型</p>
+<p>⭐智能自动播放列表-最近播放/播放次数最多/历史记录完全支持播放列表并在旅途中建立自己的播放列表</p>
+<p>我们正尽力为您带来最佳的用户体验。到目前为止，它是一个beta版本-漏洞修复（如果有）和更多功能正在陆续推出。</p>
+<p>无论如何，如果您发现或发现任何错误/崩溃，请通过向我们发送电子邮件来报告它们。我们将尽快响应或修复错误/崩溃，如果您有任何功能/建议，请点击以下链接以支持<br><a target="_blank" rel="noopener" href="https://545c.com/dir/17587959-41857561-fa345a">点击下载</a><br>如果下载出现问题请私信我</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/sd-maid-system-cleaning-tool-apk/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/sd-maid-system-cleaning-tool-apk/" class="post-title-link" itemprop="url">SD女仆–系统清理工具5.0.6 APK + 修改（已修补）Android</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-25 03:03:17" itemprop="dateCreated datePublished" datetime="2020-12-25T03:03:17+08:00">2020-12-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 12:31:42" itemprop="dateModified" datetime="2020-12-26T12:31:42+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="https://gitee.com/dl999/pic/raw/master/apk/sdmaid/wps1.png" alt="img"></p>
+<p><img src="https://gitee.com/dl999/pic/raw/master/apk/sdmaid/wps2.png" alt="img"></p>
+<p>没有人是完美的，Android也不是。<br>您已删除的应用，有时会留下数据。<br>系统会不断创建您真正不需要的日志，崩溃报告和调试文件。<br>SD卡正在收集您无法识别的文件和目录。<br>让我们不要继续…</p>
+<p>为什么不请女仆把它清理干净呢？<br>SD女仆将帮助您使设备保持整洁，整洁:-)！</p>
+<p>试试看，您将找不到更彻底的清洁工具！</p>
+<p>选择一个选项卡，按开始，然后单击单个项目删除或按清除所有按钮。就这么简单。</p>
+<h4 id="有多种可用功能："><a href="#有多种可用功能：" class="headerlink" title="有多种可用功能："></a>有多种可用功能：</h4><ul>
+<li>资源管理器是成熟的文件管理器，可使用它来浏览Android文件。</li>
+<li>如果知道要查找的文件，则可以使用“搜索器”。</li>
+<li>CorpseFinder在您的设备中搜索孤立的项目，并将其与已安装的应用程序列表进行比较。</li>
+<li>AppControl可让您冻结，重置和删除应用程序（甚至系统应用程序）。</li>
+<li>SystemCleaner会扫描您的设备并过滤包含不必要文件的目录。您甚至可以创建自己的过滤器！</li>
+<li>您可以优化和缩小肿的数据库，以加快访问速度和释放空间。</li>
+<li>查看最大的文件，找出占用所有空间的文件。</li>
+<li>查找最近X分钟内已修改的文件。</li>
+<li>和更多…</li>
+</ul>
+<p>可以通过购买和安装解锁器（SD Maid Pro）来解锁一些其他功能以及舒适性和便利性功能。</p>
+<p>SD女仆一直在非常仔细地进行开发和设计。<br>由于有大量的Android设备，SD Maid可能无法在您的设备上完美运行，在这种情况下，如果您有机会与我联系以进行修复，我将不胜感激。<br>如果您有任何疑问或疑虑，请给我发送邮件（<a href="mailto:&#115;&#x75;&#x70;&#x70;&#x6f;&#x72;&#x74;&#64;&#100;&#x61;&#114;&#107;&#x65;&#110;&#x2e;&#x65;&#117;">&#115;&#x75;&#x70;&#x70;&#x6f;&#x72;&#x74;&#64;&#100;&#x61;&#114;&#107;&#x65;&#110;&#x2e;&#x65;&#117;</a>）。我通常会很快做出回应，并会很乐意为您提供帮助。</p>
+<p>从非官方来源获取SD女仆会使您的设备面临风险。</p>
+<p>非常感谢所有帮助我改进SD Maid v3的Beta测试人员@ <a target="_blank" rel="noopener" href="http://sdmaid.darken.eu/beta%E3%80%82">http://sdmaid.darken.eu/beta。</a><br>我还要感谢所有的志愿者@ <a target="_blank" rel="noopener" href="http://sdmaid.darken.eu/translation%EF%BC%8C%E5%AE%83%E9%80%9A%E8%BF%87%E7%BF%BB%E8%AF%91%E4%BD%BF%E9%9D%9E%E8%8B%B1%E8%AF%AD%E5%9B%BD%E5%AE%B6%E7%9A%84%E7%94%A8%E6%88%B7%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8SD%E5%A5%B3%E4%BB%86%E3%80%82">http://sdmaid.darken.eu/translation，它通过翻译使非英语国家的用户可以使用SD女仆。</a></p>
+<p>未完成的帮助文档可在此处获得：<br>http : //sdmaid.darken.eu/help</p>
+<h4 id="完整的变更日志👇https"><a href="#完整的变更日志👇https" class="headerlink" title="完整的变更日志👇https"></a>完整的变更日志👇https</h4><p>: //sdmaid.darken.eu/changelog</p>
+<p>优化的图形和干净的资源，可快速加载<br>Pro功能已解锁-无需其他任何按键</p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/dir/17587959-41836039-4a5fc7">点击下载</a><br>如果下载出现问题请私信我</p>
+<p>txt里面有蓝奏云下载地址</p>
+<p>这个城通网盘太慢了</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/Hermit%20%E2%80%A2%20Lite%20Apps%20Browser/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/Hermit%20%E2%80%A2%20Lite%20Apps%20Browser/" class="post-title-link" itemprop="url">Hermit • Lite Apps Browser _v16.6.4-先行测试版 破解专业版</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-24 11:00:11" itemprop="dateCreated datePublished" datetime="2020-12-24T11:00:11+08:00">2020-12-24</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 02:30:31" itemprop="dateModified" datetime="2020-12-26T02:30:31+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>要求： Android 5.0及更高版本<br>概述：使用Hermit，您可以将大型本地应用替换为基于Web的Lite Apps。</p>
+<p><strong>ANDROID P是测试版软件，内容包含</strong>错误由于Android P错误，<br>Hermit在Android P上崩溃了，在Google修复潜在的不稳定性之前，我们无能为力。在过去的3年中，我们一直以最新的Android稳定版为目标而自豪。请不要因为某些不是我们的错而对您进行不好的评价。</p>
+<p><strong>LITE APPS</strong>与Hermit进行<br>了出色的Android集成的快速，小型Web应用程序<br>，您可以将大型本地应用替换为基于Web的精简应用。<br>浏览速度更快，保存数据，屏蔽广告，保护您的隐私，在夜间模式下浏览，阅读器视图以及为每个Lite应用程序提供20多种不同的自定义Lite应用程序！<br>隐士的内存不足3 MB，而许多流行的社交网络和新闻应用程序的内存超过50MB。</p>
+<p><strong>浏览更快。保存数据。</strong><br>隐士加快了浏览速度，同时还保护了您的隐私。<br>无广告。甚至没有免费版本。<br>广告拦截器：使所有网页保持精简，小巧美观。<br>弹出窗口阻止程序：防止不安全和具有欺骗性的网站打开新标签页或振动手机。<br>JavaScript阻止程序：使大多数页面加载速度更快。<br>数据保护程序模式：通过减小图像大小来加快浏览速度。</p>
+<p><strong>保护您的隐私。</strong><br>关注隐私：没有广告，没有行为跟踪，没有收集个人信息。<br>网络钓鱼和恶意软件防护：Hermit阻止任何尝试安装本机Android应用程序的尝试，并集成了Google的恶意软件拦截器。<br>隐身键盘：您键入的任何网站网址都会被您的键盘标记为私人网址，并且不会用于个性化自动完成功能。</p>
+<p><strong>超级浏览功能</strong><br>夜间模式：在夜间模式下以深色背景和浅色文本查看任何网站。<br>读者观点：专注于文章。<br>预计阅读时间：查看文章阅读需要多长时间，然后跳转到“读者视图”。<br>多窗口：在Android Nougat及更高版本上一次使用两个Lite应用程序。<br>直接共享：从任何Android应用程序共享文本和链接到Hermit Lite应用程序。<br>方向：选择是否要让Lite应用程序始终打开“垂直”或“水平”。<br>文字大小：增加/减小文字大小以提高可读性。<br>Double Back：是否因为后退按钮将您带到同一页面而卡住了？试试Hermit的Double Back功能！</p>
+<p><strong>安卓系统集成</strong><br>添加主屏幕图标：其他浏览器仅添加图标而忘记了您的设置。隐士使其成为真正的Lite应用程序。自己比较一下：]<br>如果您的Lite应用程序已经打开，则Hermit不会打开新选项卡，就像本机应用程序一样。<br>Atom / RSS Feed通知：网站发布新内容时立即得到通知。<br>Web监视器：不支持源？隐士可以监视任何网页的任何特定部分，并在更改时通知您。</p>
+<p><strong>无限的定制</strong><br>没有其他浏览器可让您自定义与Hermit一样多的设置，并且它们是为每个Lite App单独保存的。<br>自定义图标：为您的Lite应用选择任何图标，或创建自定义会标！<br>拾色器：创建自己的主题。<br>文字大小：分别更改和保存每个站点的设置。<br>桌面模式：加载桌面网站，而不是移动网站。<br>无框模式和全屏模式：您必须自己尝试一下！</p>
+<p><strong>简单定价：两种选择</strong><br>高级：无限Lite应用和其他高级功能<br>永久免费：仅限3 Lite应用</p>
+<p>我们尊重您的隐私，因此我们不会收集任何个人信息或出售您的数据。您是我们多年来支持功能丰富的创新更新的唯一支持来源。谢谢！</p>
+<p>新增功能：<br>✨重新整理每个精简版应用程序和主应用程序的设置。更清晰，易于浏览，更美观<br>✨多年前以便宜的价格获得了Premium？对5年以上的更新满意吗？获得了Play商店信用并想显示您的支持吗？温馨提示被接受！（在“设置”中）<br>✨始终为所有请求设置自定义用户代理：某些供稿需要<br>✨颜色匹配站点的方案<br>✨一键快速关闭窗口correctly正确<br>设置深色模式<br>✨从URL正确打开新创建的Lite应用程序</p>
+<p><strong>修改信息：<br>●已解锁高级功能<br>●已解锁<br>**抢先体验</strong>程序**<strong>●无需解锁**</strong>●已删除分析**<strong>●兼容AOSP</strong> <strong>●3.3 MB</strong> <strong>●由Kirlif发布</strong></p>
+<p><strong>此应用程序没有广告</strong></p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/dir/17587959-41603333-50b1e1">点击下载</a><br>如果下载出现问题请私信我</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/BSPlayer-Pro/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/BSPlayer-Pro/" class="post-title-link" itemprop="url">BSPlayer Pro v3.10.231-20201215 build 2106159 [Paid]</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-24 08:14:25" itemprop="dateCreated datePublished" datetime="2020-12-24T08:14:25+08:00">2020-12-24</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 02:30:31" itemprop="dateModified" datetime="2020-12-26T02:30:31+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><strong>BSPlayer Pro v3.10.231-20201215 build 2106159 [付费]</strong><br>要求： 5.0+<br>概述：这是BSPlayer多媒体播放器的完整，无广告版本，具有其他功能。</p>
+<p><img src="https://gitee.com/dl999/pic/raw/master/BSPlayer-Pro/download.png" alt="图片"></p>
+<p>BSPlayer是适用于Android设备的媒体播放器：智能手机和平板电脑，支持硬件加速的视频解码，自动字幕搜索和来自SMB共享的缓冲网络播放。</p>
+<p><strong>主要功能：</strong><br>-仅完整版：对Chromecast的实验性支持（支持大多数mp4）<br>-无广告<br>-与Android 6.0兼容<br>-硬件加速的视频播放-显着提高播放速度并减少电池消耗，支持多核（双核和四核）硬件解码*<br>-音频预放大（“音量提升”-用户可定义多达500％）<br>-播放弹出窗口（音频和视频）<br>-宽高比调整和缩放<br>-多个音频流和字幕<br>-支持自定义手势，用于“搜索”，“跳转”，“亮度”和“音量”控制，退出弹出视频<br>-播放列表支持和各种播放模式。<br>-支持音频耳机和外部蓝牙键盘<br>-可自定义的音频偏移，播放速度，手势和按键<br>-外部和嵌入式字幕ssa / ass，srt，sub，txt …<br>-自动字幕搜索（必须启用移动或Wi-Fi连接才能工作）<br>-直接通过Wi-Fi从网络共享驱动器/文件夹（例如外部USB驱动器，SMB共享，​​PC共享）播放媒体文件，例如视频和mp3文件夹，NAS服务器（Synology和其他服务器））-无需转换视频文件并将媒体文件复制到SD卡<br>-直接从未压缩的RAR文件播放文件<br>-锁定屏幕以防止意外更改视频（儿童锁定）<br>-支持USB OTG （随时随地）等等！</p>
+<p><strong>许可疑难解答：</strong><br>-如果在购买和安装该应用程序后收到许可失败通知，这是因为该购买可能需要一些时间才能记录在Google许可服务器上。它会在几个小时内解决，或者您可以尝试重新安装并重新启动设备。<br>-如果您从Market App中收到“与设备不兼容”的信息，请尝试清除Market App缓存（设置，应用程序，Market，清除缓存），然后重新启动设备。<br>- BSPlayer应用使用Google的标准许可服务。在首次运行应用程序时保持启用Wi-Fi或移动数据。不需要进一步的互联网连接。另外，对于有许可问题的现有用户-您可以尝试“清除应用数据”功能并在启用互联网连接的情况下运行应用。这应该许可您的应用。</p>
+<p>该软件包包括对带有VFP和NEON的ARMv7的支持。对于其他CPU类型，请下载适当的软件包。应用程序将通知您您需要哪个软件包。</p>
+<p>注意：报告错误时，请添加有关您的智能手机品牌和型号的信息。您也可以通过电子邮件<a href="mailto:android@bsplayer.com">android @ bsplayer .com</a>向我们发送更详细的错误报告。我们正在努力为用户改进媒体播放器，我们非常感谢您的反馈。</p>
+<p>*硬件加速支持取决于设备视频解码器的功能。在某些HTC型号上，纵向模式下的硬件加速播放可能已损坏（例如，在HTC HD上，这是硬件问题）。同样在某些设备（三星银河S2）上，缩放/拉伸可能无法在所有视频上使用。</p>
+<p>此视频播放器使用LGPLv2.1许可的FFmpeg代码，可以从BSPlayer网站下载其源代码。</p>
+<p>新增功能：<br>-更好地处理Android 11+上的媒体恢复<br>-修复了SMB用户名/密码中特殊字符的<br>问题-修复了某些视频的播放问题<br>-稳定性得到了改善，并修复了错误</p>
+<p><strong>该应用没有广告。</strong></p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/dir/17587959-41846698-4cfd92">点击下载</a><br>如果下载出现问题请私信我</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/xplayer-video-player-all-format-apk/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/xplayer-video-player-all-format-apk/" class="post-title-link" itemprop="url">XPlayer（视频播放器所有格式）2.1.9.1 [Unlocked] Apk + 修改 Android</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-24 07:59:18" itemprop="dateCreated datePublished" datetime="2020-12-24T07:59:18+08:00">2020-12-24</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 02:30:31" itemprop="dateModified" datetime="2020-12-26T02:30:31+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a target="_blank" rel="noopener" href="https://rexdl.com/"><img src="https://rexdl.com/image/android/app/xplayer-video-player-all-format.jpg?x97193" alt="XPlayer"></a></p>
+<p>Google Play 2017年最佳获胜者<br>★评分最高的（4.8）★视频播放器！</p>
+<p>下载最新版本**<a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=video.player.videoplayer">所有格式的视频播放器-XPlayer</a>** Full Apk通过<a target="_blank" rel="noopener" href="https://rexdl.com/">rexdl.com的</a>直接链接<a target="_blank" rel="noopener" href="https://rexdl.com/">解锁</a>。</p>
+<p>Video Player All Format是一种专业的视频播放工具。它支持 <strong>所有视频格式，4K /超高清</strong> 视频文件，并可以<strong>高清</strong>播放。它是适用于android平板电脑和android手机的最佳高清视频播放器之一。视频播放器所有格式还可以保护人们在使用设备时不会删除或观看您的私人视频。</p>
+<h4 id="主要特征："><a href="#主要特征：" class="headerlink" title="主要特征："></a><strong>主要特征：</strong></h4><p>●支持所有视频格式，包括 <strong>MKV</strong>，MP4，M4V，AVI，MOV，3GP，FLV，WMV，RMVB，TS等。<br>●超高清视频播放器，支持4K。<br>● <strong>硬件加速</strong>。<br>●使用<strong>私有文件夹</strong>保护您的视频安全 。<br>●使用<strong>Chromecast</strong>将视频投射到电视上 。<br>●支持 <strong>字幕</strong> 下载器等。<br>●在<strong>弹出窗口</strong>，分屏或 <strong>背景中</strong>播放视频 。<br>● <strong>夜间模式</strong>， <strong>快速静音</strong> 和 <strong>播放速度</strong>。<br>●自动识别设备和SD卡上的所有视频文件。<br>●轻松管理或共享视频。<br>●易于控制音量，亮度和播放进度。<br>●多种播放选项：自动旋转，宽高比，屏幕锁定等。<br>●适用于android平板电脑和android手机的视频播放器hd。</p>
+<p>具有速度控制功能的<br>高清播放器高清播放器可通过慢动作和快动作高级设置帮助您享受全高清播放。您可以使用此HD Player轻松将媒体速度从0.5更改为2.0。</p>
+<p>浮动视频播放器<br>视频弹出窗口启用多任务处理。浮动视频播放器会覆盖其他应用，并且可以轻松移动和调整大小。在分屏上欣赏视频，并照常使用其他应用。</p>
+<p>背景视频播放器<br>在背景上欣赏视频，就像在播放音乐一样。现在，您可以通过听书的方式观看视频。</p>
+<p>适用于android平板电脑的视频播放器<br>支持所有设备，同时在android平板电脑和android手机上观看视频。</p>
+<p>视频播放器，可投射到<br>Chromecast的电视视频播放器。使用Chromecast轻松将视频投射到Android TV。这是适用于android的最佳chromecast应用。</p>
+<p>易于使用<br>通过在播放屏幕上滑动，易于控制音量，亮度和播放进度。</p>
+<p>文件管理器自动<br>识别设备和SD卡上的所有视频文件。此外，轻松管理或共享视频。</p>
+<p>全格式视频播放器<br>播放所有格式的视频，包括MKV，MP4，M4V，AVI，MOV，3GP，FLV，WMV，RMVB，TS等。</p>
+<p>高清视频播放器<br>流畅播放高清，全高清和4k视频，并以慢动作播放视频。</p>
+<p>XPlayer所有格式的视频播放器是一款完全免费的Android高清视频播放器，简单而强大。支持任何视频格式。多合一媒体播放器，适用于不同格式。我们欢迎任何建议，以改善用户体验。请随时通过<a href="mailto:&#x78;&#x70;&#108;&#97;&#121;&#x65;&#114;&#x2e;&#x66;&#101;&#101;&#x64;&#x62;&#x61;&#x63;&#x6b;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">&#x78;&#x70;&#108;&#97;&#121;&#x65;&#114;&#x2e;&#x66;&#101;&#101;&#x64;&#x62;&#x61;&#x63;&#x6b;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a>与我们联系。</p>
+<h4 id="什么是新的"><a href="#什么是新的" class="headerlink" title="什么是新的"></a>什么是新的</h4><p>*修复了无法下载字幕的错误。</p>
+<h4 id="模组："><a href="#模组：" class="headerlink" title="模组："></a>模组：</h4><p><strong>●解锁付费功能<br>●删除分析<br>●兼容AOSP</strong></p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/dir/17587959-40931768-e363e2">点击下载</a></p>
+<p>如果下载出现问题请私信我</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://dl999.netlify.app/post/Nova-Launcher/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/Nova-Launcher/" class="post-title-link" itemprop="url">Nova Launcher v6.2.18 [Final] [Prime]</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-24 05:26:00" itemprop="dateCreated datePublished" datetime="2020-12-24T05:26:00+08:00">2020-12-24</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-26 02:30:31" itemprop="dateModified" datetime="2020-12-26T02:30:31+08:00">2020-12-26</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>高度可定制，性能驱动的主屏幕。不能替代！Nova Launcher是现代Android的顶级启动器，始终采用完整的Material Design。</p>
+<p><img src="https://gitee.com/dl999/pic/raw/master/Nova-Launcher/download.png" alt="图片"><img src="https://gitee.com/dl999/pic/raw/master/Nova-Launcher/download1.png" alt="图片"></p>
+<p>Nova Launcher是Android中最好的AOSP风格的启动器。</p>
+<p>• 图标主题-在Play商店中找到数千个Nova Launcher的图标主题<br>•子 网格定位-比标准启动器强大得多的控制，Nova Launcher允许您在桌面网格单元的一半处捕捉图标或小部件<br>• 颜色控件-用于标签，文件夹，未读的徽章，抽屉选项卡和背景<br>• 自定义应用程序抽屉-自定义选项卡，垂直或水平滚动，自定义效果<br>• 改进的小部件抽屉-按应用程序分组的小部件使使用起来更快得多<br>• 无限滚动-永不止步您最喜欢的页面，连续在桌面或抽屉中循环<br>• 备份/还原-先进的备份/还原系统，可让您备份桌面布局和启动器设置<br>•可 滚动的Dock-创建多个扩展坞并在它们之间滚动<br>• 扩展坞中的小部件-将任何小部件（例如4x1音乐播放器小部件）放置在扩展坞中<br>• 导入布局-无需从头开始重建桌面，Nova Launcher可以从最受欢迎的启动器中导入。包括手机随附的手机。<br>• 快速-新星 发射器经过高度优化，快速，安静地做工作，保持顺畅的动画，让您使用手机一样快，你可以将你的手指。</p>
+<p>新星 发射总理<br>解锁通过购买以下额外新星 发射总理<br>• 手势-在主屏幕上滑动，捏合，双击等等，以打开您喜欢的应用程序<br>• 未读邮件数-绝不会错过任何一条消息。使用TeslaUnread插件为环聊，SMS，Gmail和更多应用提供未读计数徽章<br>• 自定义抽屉组-在应用抽屉中创建新标签或文件夹<br>• 隐藏应用-通过隐藏未使用的应用来保持干净的应用抽屉<br>• 图标滑动-设置自定义操作用于滑动应用程序快捷方式或文件夹<br>• 更多滚动效果-例如“擦除”，“手风琴”和“投掷”</p>
+<p>此应用程序使用“设备管理员”权限来启用可选的屏幕关闭/锁定功能。</p>
+<p>新增功能：<br>6.2.18<br>修复和优化</p>
+<p>修改信息：<br>主要功能已解锁-无需其他密钥；<br>优化图形并清除默认墙纸；<br>关闭统计和社交菜单；<br>禁用/删除不需要的权限+接收者和服务；<br>Analytics（分析）/ Crashlytics（崩溃）已禁用。</p>
+<p>该应用没有广告。</p>
+<p><a target="_blank" rel="noopener" href="https://545c.com/file/17587959-477248967">点击下载</a><br>如果下载出现问题请私信我</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
   
   <nav class="pagination">
-    <ul>
-      
-      <li  class="active" >
-        <a href="/">1</a>
-      </li>
-      
-      <li >
-        <a href="/page/2/">2</a>
-      </li>
-      
-    </ul>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
-  
-  
 
 
+          </div>
+          
 
-
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
 
         </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
       </div>
     </main>
 
-    <footer id="footer" class="footer">
-      <div class="icon-links">
-  
+    <footer class="footer">
+      <div class="footer-inner">
+        
 
-
-<a href="https://dl999.netlify.app/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
-    class="iconfont" title="rss" target="_blank">
-    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="30" height="30">
-  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
-</svg>
-
-  </a>
-   
-</div>
+        
 
 <div class="copyright">
-  <span class="power-by">
-    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
   </span>
-  <span class="division">|</span>
-  <span class="theme-info">
-    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
-  </span>
-
-  <span class="copyright-year">
-    &copy;
-    
-      2017 -
-    2021
-    <span class="heart">
-      
-      <i class="iconfont">
-        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="14" height="14">
-  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
-   fill="#8a8a8a"></path>
-</svg>
-
-      </i>
-    </span><span class="author">
-        007
-        
-      </span></span>
-
-  
-  
-
-  
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
 </div>
-
-    </footer>
-
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont">
-        
-        <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="35" height="35">
-  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
-</svg>
-
-      </i>
-    </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
-  
-<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
 
-
-
-
-<script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+        
 
 
 
@@ -996,19 +1085,35 @@
 
 
 
-
-
-
+      </div>
+    </footer>
+  </div>
 
   
-    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
-    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
-    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
   
 
 
 
 
+  
+<script src="/js/local-search.js"></script>
 
 
 
@@ -1019,6 +1124,12 @@
 
 
 
+
+
+
+  
+
+  
 
 </body>
 </html>
