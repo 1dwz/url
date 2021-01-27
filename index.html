@@ -6,25 +6,23 @@
     <title>repack.top</title>
 	<style> .center {text-align: center}</style>
 	<style type="text/css">a:link{color:black;}a:visited{color:black;}</style>
+	<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 </head>
 <body>
 	<div class="center">
 		<h1>repack.top</h1>
 <p>测试</p>
-	</div>
-	
 <div class="vcomment"></div>
-          <!-- <script src="https://cdn.jsdelivr.net/npm/valine"></script>   -->
-          
-          <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
           <script>
             var path = window.location.pathname.replace('index.html','');
             var isEN = path.indexOf('en') > -1;
             path = isEN ? path.replace('en/','') : path;
             new Valine({
                 el: '.vcomment',
-                appId: '3GiiCyXCrGbOIH3EelCfJ6yw-gzGzoHsz',
-                appKey: 'iuneD4hXPQImdHQSRE0aOcRF',
+
+                appId: '51G2JrMcLSYhspOavNin1Jyz-gzGzoHsz',
+                appKey: 'zC0EugdftQp3HHnvGupqWADB',
+
                 placeholder: 'Just Go Go.',
                 avatar:'mp',
                 path:path,
@@ -88,6 +86,7 @@
                 } : void 0
             })
           </script>
-
+        
+      </div>
 </body>
 </html>
