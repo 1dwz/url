@@ -1,0 +1,12 @@
+<script language="javascript">
+function dogo(){
+var urls = new Array();
+urls[0]="https://474b.com/f/32682056-500826210-f5fda2";
+urls[1]="https://474b.com/f/32682056-500826464-d4f9de";
+urls[2]="https://474b.com/f/32682056-500826473-eaf44b";
+n = Math.floor(Math.random()*1);
+location.href= urls[n];
+}
+</script>
+<body onload="javascript:dogo();">
+</body>
