@@ -2,13 +2,12 @@
 <script language="javascript">
 function dogo(){
 var urls = new Array();
-urls[0]="https://474b.com/f/32682056-500907010-7bb75b";
-urls[1]="https://z701.com/f/32253953-500904483-e75a5b";
-urls[2]="https://z701.com/f/32253953-500904453-b1d54b";
+urls[0]="https://z701.com/f/32253953-500984731-09f085";
+urls[1]="https://z701.com/f/32253953-500984995-fc48bc";
+urls[2]="https://474b.com/f/32682056-500985798-961c11";
 n = Math.floor(Math.random()*3);
 location.href= urls[n];
 }
 </script>
 <body onload="javascript:dogo();">
 </body>
-© 2021 GitHub, Inc.
