@@ -2,9 +2,8 @@
 <script language="javascript">
 function dogo(){
 var urls = new Array();
-urls[0]="https://z701.com/f/32253953-501036039-6cc054";
-urls[1]="https://z701.com/f/32253953-501035766-e6ee36";
-urls[2]="https://z701.com/f/32253953-501035630-53b6e3";
+urls[0]="https://z701.com/f/32253953-501083340-be98a0";
+urls[1]="https://z701.com/f/32253953-501083208-8cb2e0";
 urls[3]="https://474b.com/f/32682056-501038018-a3882f";
 n = Math.floor(Math.random()*4);
 location.href= urls[n];
