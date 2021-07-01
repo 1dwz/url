@@ -1,13 +1,14 @@
 <meta name="referrer" content="never">
-<script language="javascript">
-function dogo(){
+<script type="text/javascript">
+
 var urls = new Array();
 urls[0]="https://z701.com/f/32253953-501083340-be98a0";
 urls[1]="https://z701.com/f/32253953-501083208-8cb2e0";
 urls[3]="https://474b.com/f/32682056-501086707-b7fb0d";
-n = Math.floor(Math.random()*3);
-location.href= urls[n];
-}
+
+var random = Math.floor(Math.random()*urls.length);
+
+window.location = urls[random];
+
 </script>
-<body onload="javascript:dogo();">
-</body>
+
