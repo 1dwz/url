@@ -1,0 +1,25 @@
+423down.com##div.wrapper:nth-child(7) > div.sidebar:nth-child(2)
+52pojie.cn###ct > div.mn > div.bm.bml.pbn:first-child
+baijiahao.baidu.com###ssr-content > div.app-module_contentWrapper_2jN0Z:nth-child(2) > div.app-module_articleWrapper_q1J1i:last-child > div.app-module_rightSection_2v051:last-child
+bttzyw68.com##.psd, .right_top
+bttzyw68.com##.top_gz
+cn.pornhub.com###headerContainer > span.headerBtnsWrapper:nth-child(3)
+deepl.com###dl_cookieBanner
+deepl.com##.dl_ad_pro_container
+deepl.com##.dl_header--sticky.dl_header
+deepl.com##.dl_top_element--wide.dl_footer
+deepl.com##.lmt--mobile-hidden
+sehuatang.net###wp > div.show-text.cl:nth-child(2)
+sehuatang.net###wp > div.show-text.cl:nth-child(7)
+tophub.today###page > div.c-d.c-d-e:last-child > div.Zd-p-ae:nth-child(3)
+uploadrar.com###commonId > a.btn.btn-success.btn-lg:nth-child(5)
+uploadrar.com###footer2
+uploadrar.com###news_last
+uploadrar.com##div.menufooter:nth-child(6)
+uploadrar.com##footer:nth-child(7)
+uploadrar.com##header:nth-child(3)
+weathernew.pae.baidu.com###sfr-app > div.rt-view.active:first-child > div.rt-body:last-child > div.weather:first-child > div.weather-footer:nth-child(4)
+weathernew.pae.baidu.com###sfr-app > div.rt-view.active:first-child > div.rt-body:last-child > div.weather:first-child > div.weather-nav:first-child
+weidown.com###navGrid
+weidown.com##div.baseLayout:first-child > div.productGrid:nth-child(2) > div.downLoadWrapper:nth-child(2) > div.asideGrid:last-child
+weidown.com##div.baseLayout:first-child > div.productGrid:nth-child(2) > div.searchPageWrap:last-child > div.asideWrap:last-child
